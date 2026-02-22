@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_CHI_yuan_shikai"
+		texturefile = "gfx/leaders/CHI/yuan_shi_kai.dds"
+	}
+}

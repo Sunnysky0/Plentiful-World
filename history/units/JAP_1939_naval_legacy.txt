@@ -1,0 +1,201 @@
+
+
+
+
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	
+#####################
+### Ongoing Naval Production Sep 1 1939 ###
+		# BB (x1): "Hiei"
+		add_equipment_production = {	
+			equipment = {
+				type = battleship_2
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.9
+			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+		# SHBB (x1): "Yamato"
+		add_equipment_production = {
+			equipment = {
+				type = SH_battleship_1
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.1
+			amount = 1
+			industrial_manufacturer = mio:JAP_kure_naval_arsenal_organization
+		}
+		# CV (x1): "Shokaku"
+		add_equipment_production = {
+			equipment = {
+				type = carrier_3
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.2
+			amount = 1
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+		}
+		# CL (x1): "Katori"
+		add_equipment_production = {
+			equipment = {
+				type = light_cruiser_2
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.66
+			amount = 1
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+		}
+		# DD (x5): "Kagero" "Kuroshio" "Oyashio" "Hatsukaze" "Natsushio"
+		add_equipment_production = {
+			equipment = {
+				type = destroyer_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			requested_factories = 1
+			progress = 0.85
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {
+			equipment = {
+				type = destroyer_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			requested_factories = 1
+			progress = 0.75
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {
+			equipment = {
+				type = destroyer_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			requested_factories = 1
+			progress = 0.65
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {
+			equipment = {
+				type = destroyer_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			requested_factories = 1
+			progress = 0.55
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {
+			equipment = {
+				type = destroyer_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			requested_factories = 1
+			progress = 0.45
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		# DD (x4): "Yukikaze" "Hayashio" "Isokaze" "Shiranui"
+		add_equipment_production = {				
+			equipment = {
+				type = destroyer_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			requested_factories = 1
+			progress = 0.75
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = destroyer_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			requested_factories = 1
+			progress = 0.65
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = destroyer_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			requested_factories = 1
+			progress = 0.55
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = destroyer_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			requested_factories = 1
+			progress = 0.45
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		# SS (x7): "I-9" "I-15" "I-16" "I-17" "I-18" "I-20" "I-22"
+		add_equipment_production = {
+			equipment = {
+				type = submarine_3
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.7
+			amount = 2
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = submarine_3
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.6
+			amount = 2
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = submarine_3
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.5
+			amount = 2
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = submarine_3
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.4
+			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+}

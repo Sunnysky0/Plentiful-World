@@ -1,0 +1,96 @@
+spriteTypes = {
+
+	# Police
+	spriteType = {
+		name = "GFX_idea_no_police"
+		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_small_scale_police"
+		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_standing_police"
+		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_large_scale_police"
+		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_totalitarian_police"
+		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"
+	}
+
+	# Public Healthcare
+	spriteType = {
+		name = "GFX_idea_no_healthcare"
+		texturefile = "gfx/interface/ideas/idea_generic_agrarian_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_basic_healthcare"
+		texturefile = "gfx/interface/ideas/idea_generic_agrarian_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_health_insurance"
+		texturefile = "gfx/interface/ideas/idea_generic_agrarian_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_universal_healthcare"
+		texturefile = "gfx/interface/ideas/idea_generic_agrarian_society.dds"
+	}
+
+	# Public Education
+	spriteType = {
+		name = "GFX_idea_no_education"
+		texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_primary_education"
+		texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nine_year_compulsory_education"
+		texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_public_higher_education"
+		texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+	}
+
+	# Fiscal Model
+	spriteType = {
+		name = "GFX_idea_very_low_tax"
+		texturefile = "gfx/interface/ideas/idea_generic_foreign_capital.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_low_tax"
+		texturefile = "gfx/interface/ideas/idea_generic_foreign_capital.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_medium_tax"
+		texturefile = "gfx/interface/ideas/idea_generic_foreign_capital.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_high_tax"
+		texturefile = "gfx/interface/ideas/idea_generic_foreign_capital.dds"
+	}
+
+	# Social Welfare
+	spriteType = {
+		name = "GFX_idea_no_welfare"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_basic_welfare"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_unemployment_benefits"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_comprehensive_welfare"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_1.dds"
+	}
+}

@@ -1,0 +1,182 @@
+ideas = {
+	
+	# Police
+	police = {
+		no_police = {
+			modifier = {
+				stability_factor = -0.20
+				production_speed_buildings_factor = 0.10
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		small_scale_police = {
+			modifier = {
+				stability_factor = -0.15
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.02
+			}
+		}
+		
+		standing_police = {
+			default = yes
+			modifier = {
+				production_speed_buildings_factor = 0.02
+			}
+		}
+		
+		large_scale_police = {
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.5
+				consumer_goods_factor = 0.02
+			}
+		}
+		
+		totalitarian_police = {
+			modifier = {
+				stability_factor = 0.20
+				political_power_gain = 1.0
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+	
+	# Public Healthcare
+	public_healthcare = {
+		no_healthcare = {
+			modifier = {
+				monthly_population = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		basic_healthcare = {
+			default = yes
+			modifier = {
+				stability_factor = 0.05
+				industry_free_repair_factor = 0.05
+			}
+		}
+		
+		health_insurance = {
+			modifier = {
+				monthly_population = 0.05
+				stability_factor = 0.05
+				industry_free_repair_factor = 0.10
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		universal_healthcare = {
+			modifier = {
+				monthly_population = 0.10
+				stability_factor = 0.10
+				industry_free_repair_factor = 0.20
+				consumer_goods_factor = 0.10
+			}
+		}
+	}
+	
+	# Public Education
+	public_education = {
+		no_education = {
+			modifier = {
+				research_speed_factor = -0.10
+				stability_factor = -0.02
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		primary_education = {
+			default = yes
+			modifier = {
+				stability_factor = 0.02
+			}
+		}
+		
+		nine_year_compulsory_education = {
+			modifier = {
+				research_speed_factor = 0.05
+				stability_factor = 0.05
+				industry_free_repair_factor = 0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+		
+		public_higher_education = {
+			modifier = {
+				research_speed_factor = 0.10
+				stability_factor = 0.10
+				industry_free_repair_factor = 0.20
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+	
+	# Fiscal Model
+	fiscal_model = {
+		very_low_tax = {
+			modifier = {
+				production_speed_industrial_complex_factor = 0.20
+				consumer_goods_factor = 0.10
+			}
+		}
+		
+		low_tax = {
+			modifier = {
+				production_speed_industrial_complex_factor = 0.10
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		medium_tax = {
+			default = yes
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		high_tax = {
+			modifier = {
+				consumer_goods_factor = -0.10
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_arms_factory_factor = 0.10
+			}
+		}
+	}
+	
+	# Social Welfare
+	social_welfare = {
+		no_welfare = {
+			modifier = {
+				industrial_capacity_factory = 0.05
+				stability_factor = -0.10
+			}
+		}
+		
+		basic_welfare = {
+			default = yes
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		
+		unemployment_benefits = {
+			modifier = {
+				stability_factor = 0.10
+				consumer_goods_factor = 0.02
+				monthly_population = 0.05
+			}
+		}
+		
+		comprehensive_welfare = {
+			modifier = {
+				stability_factor = 0.20
+				consumer_goods_factor = 0.05
+				monthly_population = 0.10
+				industrial_capacity_factory = -0.05
+			}
+		}
+	}
+}

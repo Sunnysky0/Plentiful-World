@@ -1,0 +1,298 @@
+
+
+
+
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	
+#####################
+### Ongoing Naval Production Sep 1 1939 ###
+		# BB (x1): "Hiei"
+		add_equipment_production = {	
+			equipment = {
+				type = ship_hull_heavy_1
+				creator = "JAP" 
+				version_name = "Kongo Class"
+			}
+			name = "Hiei" 
+			requested_factories = 1
+			progress = 0.9
+			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+		# SHBB (x1): "Yamato"
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_super_heavy_1
+				creator = "JAP" 
+				version_name = "Yamato Class"
+			}
+			name = "Yamato" 
+			requested_factories = 1
+			progress = 0.1
+			amount = 1
+			industrial_manufacturer = mio:JAP_kure_naval_arsenal_organization
+		}
+		# CV (x1): "Shokaku"
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_carrier_2
+				creator = "JAP" 
+				version_name = "Shokaku Class"
+			}
+			name = "Shokaku" 
+			requested_factories = 1
+			progress = 0.2
+			amount = 1
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+		}
+		# CL (x2): "Katori" "Kashima"
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_cruiser_2
+				creator = "JAP" 
+				version_name = "Katori Class"
+			}
+			name = "Katori" 
+			requested_factories = 1
+			progress = 0.6
+			amount = 1
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_cruiser_2
+				creator = "JAP" 
+				version_name = "Katori Class"
+			}
+			name = "Kashima" 
+			requested_factories = 1
+			progress = 0.5
+			amount = 1
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+		}
+		# DD Kagero class (x9): "Kagero" "Kuroshio" "Oyashio" "Hatsukaze" "Natsushio" "Yukikaze" "Hayashio" "Isokaze" "Shiranui"
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_light_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			name = "Kagero" 
+			requested_factories = 1
+			progress = 0.85
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_light_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			name = "Kuroshio" 
+			requested_factories = 1
+			progress = 0.75
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_light_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			name = "Oyashio" 
+			requested_factories = 1
+			progress = 0.2
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_light_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			name = "Hatsukaze" 
+			requested_factories = 1
+			progress = 0.65
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_light_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			name = "Natsushio" 
+			requested_factories = 1
+			progress = 0.2
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_light_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			name = "Yukikaze" 
+			requested_factories = 1
+			progress = 0.75
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_light_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			name = "Hayashio" 
+			requested_factories = 1
+			progress = 0.20
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_light_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			name = "Isokaze" 
+			requested_factories = 1
+			progress = 0.10
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_light_2
+				creator = "JAP" 
+				version_name = "Kagero Class"
+			}
+			name = "Shiranui" 
+			requested_factories = 1
+			progress = 0.60
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		# DD(CM) (x2): "Hatsutaka" "Aotaka"
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_light_2
+				creator = "JAP" 
+				version_name = "Hatsutaka Class"
+			}
+			name = "Hatsutaka" 
+			requested_factories = 1
+			progress = 0.75
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_light_2
+				creator = "JAP" 
+				version_name = "Hatsutaka Class"
+			}
+			name = "Aotaka" 
+			requested_factories = 1
+			progress = 0.25
+			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}		
+		# SS (x7): "I-9" "I-15" "I-16" "I-17" "I-18" "I-20" "I-22"
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_cruiser_submarine
+				creator = "JAP" 
+				version_name = "A1/B1 Class"
+			}
+			#ordered_name = 9
+			requested_factories = 1
+			progress = 0.1
+			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_cruiser_submarine
+				creator = "JAP" 
+				version_name = "A1/B1 Class"
+			}
+			#ordered_name = 15
+			requested_factories = 1
+			progress = 0.1
+			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_cruiser_submarine
+				creator = "JAP" 
+				version_name = "A1/B1 Class"
+			}
+			#ordered_name = 16
+			requested_factories = 1
+			progress = 0.5
+			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_cruiser_submarine
+				creator = "JAP" 
+				version_name = "A1/B1 Class"
+			}
+			#ordered_name = 17
+			requested_factories = 1
+			progress = 0.1
+			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_cruiser_submarine
+				creator = "JAP" 
+				version_name = "A1/B1 Class"
+			}
+			#ordered_name = 18
+			requested_factories = 1
+			progress = 0.1
+			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_cruiser_submarine
+				creator = "JAP" 
+				version_name = "A1/B1 Class"
+			}
+			#ordered_name = 20
+			requested_factories = 1
+			progress = 0.1
+			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_cruiser_submarine
+				creator = "JAP" 
+				version_name = "A1/B1 Class"
+			}
+			#ordered_name = 22
+			requested_factories = 1
+			progress = 0.1
+			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+		}
+}

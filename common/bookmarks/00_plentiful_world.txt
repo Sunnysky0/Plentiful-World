@@ -1,0 +1,12 @@
+bookmarks = {
+	bookmark = {
+		name = "PW_BOOKMARK_NAME"
+		desc = "PW_BOOKMARK_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "CHI"
+		"CHI" = {
+			history = "CHI_PW_DESC"
+		}
+	}
+}
