@@ -418,6 +418,31 @@ guiTypes = {
 #			quadTextureSprite = "GFX_subject_button"
 #		}
 		
+
+		iconType = {
+			name = "leader"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_leader_unknown"
+		}
+		
+		iconType = {
+			name = "leader_frame2"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 10 y = 44 }		
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "leader_name"
+			position = { x = 18 y = 262 }
+			font = "hoi_18mbs"
+			text = "leader_name"
+			maxWidth = 155
+			maxHeight = 36
+			format = center
+			vertical_alignment = center
+		}
+
 		containerWindowType = {
 			name = "active_goal"
 			position = { x = 179 y = 48 }
@@ -522,15 +547,15 @@ guiTypes = {
 				alwaystransparent = yes
 			}			
 		}
-		containerWindowType = {
+				containerWindowType = {
 			name = "national_spirit"
-			position = { x = 81 y = 153 }
+			position = { x = 114 y = 170 }
 			size = { width = 360 height = 50 }
 			clipping = no
 						
 			instantTextboxType = {
 				name = "title"
-				position = { x = 110 y = -2 }
+				position = { x = 110 y = -19 }
 				font = "hoi_18mbs"
 				text = "POLITICS_NATIONAL_SPIRIT"
 				maxWidth = 200
@@ -540,58 +565,36 @@ guiTypes = {
 			
 			
 			containerWindowType = {
-				name = "national_spirit_container"
-				position = { x = 99 y = 16 }
-				size = { width = 364 height = 74 }
-				verticalScrollbar = "right_vertical_slider"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent"
-				}
-				
-				gridboxtype = {
-					name = "spirit_grid"
-					position = { x = 1 y = 2 }
-					size = { width = 354 height = 68 }
-					slotsize = { width = 59 height = 68 }
-					max_slots = { x = 6 y = 1 }
-					format = "UPPER_LEFT"
-				}
-				gridboxtype = {
-					name = "spirit_grid_over_defined"
-					position = { x = 10 y = 1 }
-					size = { width = 330 height = 68 }
-					slotsize = { width = 33 height = 34 }
-					max_slots_horizontal = 10
-					format = "UPPER_LEFT"
-				}
+			name = "national_spirit_container"
+			position = { x = 65 y = 0 }
+			size = { width = 428 height = 90 }
+			clipping = yes
+			horizontalScrollbar = "bottom_horizontal_slider"
+			margin = { top = 6 left = 0 bottom = 8 right = 0 }
+			
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_transparent"
+			}
+			
+			gridboxtype = {
+				name = "spirit_grid"
+				position = { x = 10 y = -1 }
+				size = { width = 350 height = 100%% }
+				slotsize = { width = 68 height = 68 }
+				max_slots_horizontal = 100
+				format = "UPPER_LEFT"
+			}
+			gridboxtype = {
+				name = "spirit_grid_over_defined"
+				size = { width = 350 height = 100%% }
+				slotsize = { width = 33 height = 34 }
+				max_slots_horizontal = 100
+				format = "UPPER_LEFT"
 			}
 		}
-		iconType = {
-			name = "leader"
-			position = { x = 18 y = 58 }
-			spriteType = "GFX_leader_unknown"
-		}
-		
-		iconType = {
-			name = "leader_frame2"
-			spriteType = "GFX_pol_leader_frame"
-			position = { x = 10 y = 44 }		
-			alwaystransparent = yes
 		}
 
-		instantTextboxType = {
-			name = "leader_name"
-			position = { x = 18 y = 262 }
-			font = "hoi_18mbs"
-			text = "leader_name"
-			maxWidth = 155
-			maxHeight = 36
-			format = center
-			vertical_alignment = center
-		}
-		
 		containerWindowType = {
 			name = "ideas"
 			position = { x = 0 y = 425 }
@@ -609,13 +612,13 @@ guiTypes = {
 			}
 			
 			gridBoxType = {
-				name = "idea_categories_grid"
-				position = { x = 17 y = 0 }
-				size = { width = 100%% height = 100%% }
-				slotsize = { width = 64 height = 175 } # Increased height from 106 to 175 to fit expanded categories
-				max_slots_horizontal = 1
-				format = "UPPER_LEFT"
-			}
+			name = "idea_categories_grid"
+			position = { x = 17 y = 0 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 64 height = 106 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
 		}
 
 		iconType ={
@@ -737,7 +740,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "country_politics_idea_category_entry"
 		position = { x = 0 y = 0 }
-		size = { width=550 height= 170 } # Increased height from 100 to 170 to fit 2 rows
+		size = { width=550 height= 100 } # Optimized for single row
 		clipping = no
 		
 		iconType ={
@@ -767,8 +770,8 @@ guiTypes = {
 			name = "ideas_grid"
 			position = { x = 17 y = 46 }
 			size = { width = 100%% height = 100%% }
-			slotsize = { width = 75 height = 64 } # Reduced width from 80 to 75 to fit more slots
-			max_slots = { x = 6 y = 5 } # Increased y limit to allow wrapping
+			slotsize = { width = 75 height = 64 } 
+			max_slots = { x = 6 y = 1 } # Force single row
 			format = "UPPER_LEFT"
 		}
 	}
@@ -913,7 +916,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "political_idea_entry"
-		size = { width = 53 height = 53 }
+		size = { width = 68 height = 68 }
 		clipping = no
 
 		iconType = {
