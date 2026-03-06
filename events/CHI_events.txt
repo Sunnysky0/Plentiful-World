@@ -1,0 +1,16 @@
+add_namespace = CHI_event
+
+country_event = {
+	id = CHI_event.1
+	title = CHI_event.1.t
+	desc = CHI_event.1.d
+	picture = GFX_report_event_chinese_officers
+
+	is_triggered_only = yes
+
+	option = {
+		name = CHI_event.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+	}
+}

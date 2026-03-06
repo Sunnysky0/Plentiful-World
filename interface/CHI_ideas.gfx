@@ -1,0 +1,22 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_CHI_corrupt_military"
+		texturefile = "gfx/interface/ideas/CHI/CHI_corrupt_military.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHI_corrupt_officialdom"
+		texturefile = "gfx/interface/ideas/CHI/CHI_corrupt_officialdom.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHI_hidden_rules"
+		texturefile = "gfx/interface/ideas/CHI/CHI_hidden_rules.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHI_office_lady"
+		texturefile = "gfx/interface/ideas/CHI/CHI_office_lady.png"
+	}
+}

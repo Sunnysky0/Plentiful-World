@@ -1,0 +1,86 @@
+spriteTypes = {
+
+	# Generic Empty
+	spriteType = {
+		name = "GFX_idea_generic_empty"
+		texturefile = "gfx/interface/ideas/generic/generic_empty.dds"
+	}
+
+	# Gender
+	spriteType = {
+		name = "GFX_idea_pps_female"
+		texturefile = "gfx/interface/ideas/generic/pps_female.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_female_and_femboy"
+		texturefile = "gfx/interface/ideas/generic/pps_female_and_femboy.dds"
+	}
+
+	# Training
+	spriteType = {
+		name = "GFX_idea_pps_school_tease"
+		texturefile = "gfx/interface/ideas/generic/pps_school_tease.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_hypno_tease"
+		texturefile = "gfx/interface/ideas/generic/pps_hypno_tease.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_hybrid_tease"
+		texturefile = "gfx/interface/ideas/generic/pps_hybrid_tease.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_professional_tease"
+		texturefile = "gfx/interface/ideas/generic/pps_professional_tease.dds"
+	}
+
+	# Service
+	spriteType = {
+		name = "GFX_idea_pps_private_commercial"
+		texturefile = "gfx/interface/ideas/generic/pps_private_commercial.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_public_commerical"
+		texturefile = "gfx/interface/ideas/generic/pps_public_commerical.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_national_plan"
+		texturefile = "gfx/interface/ideas/generic/pps_national_plan.dds"
+	}
+
+	# Age
+	spriteType = {
+		name = "GFX_idea_pps_age_16"
+		texturefile = "gfx/interface/ideas/generic/pps_age_16.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_age_17"
+		texturefile = "gfx/interface/ideas/generic/pps_age_17.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_age_18"
+		texturefile = "gfx/interface/ideas/generic/pps_age_18.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_age_19"
+		texturefile = "gfx/interface/ideas/generic/pps_age_19.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_age_20"
+		texturefile = "gfx/interface/ideas/generic/pps_age_20.dds"
+	}
+
+	# Duration
+	spriteType = {
+		name = "GFX_idea_pps_duration_1"
+		texturefile = "gfx/interface/ideas/generic/pps_duration_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_duration_2"
+		texturefile = "gfx/interface/ideas/generic/pps_duration_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pps_duration_3"
+		texturefile = "gfx/interface/ideas/generic/pps_duration_3.dds"
+	}
+}

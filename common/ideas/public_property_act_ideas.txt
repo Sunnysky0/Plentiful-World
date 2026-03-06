@@ -1,0 +1,330 @@
+ideas = {
+	
+	# Public Property Act Category - Slots
+	
+	# Slot 1: Applicable Scope
+	pps_scope = {
+		pps_scope_forbidden = {
+			default = yes
+			allowed = { always = yes }
+			picture = generic_empty
+			modifier = {}
+		}
+		
+		pps_scope_criminals = {
+			allowed = { always = yes }
+			picture = pps_female
+			modifier = {
+				stability_factor = -0.02
+				monthly_population = 0.02
+			}
+		}
+		
+		pps_scope_citizens = {
+			allowed = { always = yes }
+			picture = pps_female_and_femboy
+			modifier = {
+				stability_factor = -0.05
+				monthly_population = 0.05
+			}
+		}
+	}
+	
+	# Slot 2: Gender
+	pps_gender = {
+		pps_gender_none = {
+			default = yes
+			allowed = { always = yes }
+			available = { has_idea = pps_scope_forbidden }
+			picture = generic_empty
+			modifier = {}
+		}
+		
+		pps_gender_girls = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_female
+			modifier = {
+				monthly_population = 0.02
+			}
+		}
+		
+		pps_gender_girls_and_femboys = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_female_and_femboy
+			modifier = {
+				monthly_population = 0.05
+			}
+		}
+	}
+	
+	# Slot 3: Training Method
+	pps_training = {
+		pps_training_none = {
+			default = yes
+			allowed = { always = yes }
+			picture = generic_empty
+			modifier = {}
+		}
+		
+		pps_training_school = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_school_tease
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		
+		pps_training_hypno = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_hypno_tease
+			modifier = {
+				compliance_growth = 0.05
+			}
+		}
+		
+		pps_training_mixed = {
+			allowed = { always = yes }
+			available = { 
+				AND = {
+					OR = {
+						has_idea = pps_scope_criminals
+						has_idea = pps_scope_citizens
+					}
+					has_idea = pps_gender_girls_and_femboys
+				}
+			}
+			picture = pps_hybrid_tease
+			modifier = {
+				stability_factor = -0.02
+				political_power_gain = 0.05
+			}
+		}
+		
+		pps_training_professional = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_professional_tease
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+	}
+	
+	# Slot 4: Service Mode
+	pps_service = {
+		pps_service_none = {
+			default = yes
+			allowed = { always = yes }
+			picture = generic_empty
+			modifier = {}
+		}
+		
+		pps_service_private = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_private_commercial
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		pps_service_public = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_public_commerical
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
+		pps_service_national = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_national_plan
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+	}
+	
+	# Slot 5: Minimum Age
+	pps_age = {
+		pps_age_none = {
+			default = yes
+			allowed = { always = yes }
+			picture = generic_empty
+			modifier = {}
+		}
+		
+		pps_age_16 = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_age_16
+			modifier = {
+				conscription_factor = 0.10
+				stability_factor = -0.05
+			}
+		}
+		
+		pps_age_17 = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_age_17
+			modifier = {
+				conscription_factor = 0.08
+				stability_factor = -0.04
+			}
+		}
+		
+		pps_age_18 = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_age_18
+			modifier = {
+				conscription_factor = 0.06
+				stability_factor = -0.03
+			}
+		}
+		
+		pps_age_19 = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_age_19
+			modifier = {
+				conscription_factor = 0.04
+				stability_factor = -0.02
+			}
+		}
+		
+		pps_age_20 = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_age_20
+			modifier = {
+				conscription_factor = 0.02
+				stability_factor = -0.01
+			}
+		}
+	}
+	
+	# Slot 6: Service Duration
+	pps_duration = {
+		pps_duration_none = {
+			default = yes
+			allowed = { always = yes }
+			picture = generic_empty
+			modifier = {}
+		}
+		
+		pps_duration_1 = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_duration_1
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		
+		pps_duration_2 = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_duration_2
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.10
+			}
+		}
+		
+		pps_duration_3 = {
+			allowed = { always = yes }
+			available = { 
+				OR = {
+					has_idea = pps_scope_criminals
+					has_idea = pps_scope_citizens
+				}
+			}
+			picture = pps_duration_3
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+			}
+		}
+	}
+}

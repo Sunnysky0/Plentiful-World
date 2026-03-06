@@ -1,0 +1,14 @@
+﻿﻿l_simp_chinese:
+ domestic_industry:0 "国内产业"
+ industrial_enterprise:0 "产业企业"
+ 
+ generic_industrial_group:0 "通用工业集团"
+ generic_industrial_group_desc:0 "提供基础工业支持。"
+ generic_medical_group:0 "通用医疗集团"
+ generic_medical_group_desc:0 "提供基础医疗服务。"
+ generic_investment_bank:0 "通用投资银行"
+ generic_investment_bank_desc:0 "提供基础金融服务。"
+ generic_tech_enterprise:0 "通用科技企业"
+ generic_tech_enterprise_desc:0 "提供基础科技研发。"
+ generic_transportation_group:0 "通用交通集团"
+ generic_transportation_group_desc:0 "提供基础交通物流服务。"

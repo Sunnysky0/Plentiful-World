@@ -1,0 +1,38 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_focus_CHI_sao_xue"
+		texturefile = "gfx/interface/goals/CHI/CHI_sao_xue.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_CHI_cabinet_conference"
+		texturefile = "gfx/interface/goals/CHI/CHI_cabinet_conference.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_CHI_abnormal_police"
+		texturefile = "gfx/interface/goals/CHI/CHI_abnormal_police.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_CHI_contact_senator"
+		texturefile = "gfx/interface/goals/CHI/CHI_contact_senator.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_CHI_public_opinion_control"
+		texturefile = "gfx/interface/goals/CHI/CHI_public_opinion_control.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_CHI_bribe_eunuchs"
+		texturefile = "gfx/interface/goals/CHI/CHI_bribe_eunuchs.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_CHI_abnormal_military"
+		texturefile = "gfx/interface/goals/CHI/CHI_abnormal_military.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_CHI_palace_power_control"
+		texturefile = "gfx/interface/goals/CHI/CHI_palace_power_control.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_CHI_captial_garrison_control"
+		texturefile = "gfx/interface/goals/CHI/CHI_captial_garrison_control.png"
+	}
+}

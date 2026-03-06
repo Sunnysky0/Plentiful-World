@@ -1,0 +1,66 @@
+ideas = {
+	
+	# All ideas now belong to the same slot: industrial_enterprise
+	industrial_enterprise = {
+		
+		generic_industrial_group = {
+			default = yes
+			allowed = {
+				always = yes
+			}
+			picture = GFX_idea_generic_industrial_group
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		
+		generic_medical_group = {
+			default = yes
+			allowed = {
+				always = yes
+			}
+			picture = GFX_idea_generic_medical_group
+			
+			modifier = {
+				monthly_population = 0.05
+			}
+		}
+		
+		generic_investment_bank = {
+			default = yes
+			allowed = {
+				always = yes
+			}
+			picture = GFX_idea_generic_investment_bank
+			
+			modifier = {
+				political_power_gain = 0.05
+			}
+		}
+		
+		generic_tech_enterprise = {
+			default = yes
+			allowed = {
+				always = yes
+			}
+			picture = GFX_idea_generic_tech_enterprise
+			
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		
+		generic_transportation_group = {
+			default = yes
+			allowed = {
+				always = yes
+			}
+			picture = GFX_idea_generic_transportation_group
+			
+			modifier = {
+				supply_consumption_factor = -0.05
+			}
+		}
+	}
+}

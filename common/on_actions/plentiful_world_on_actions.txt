@@ -1,0 +1,29 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				add_ideas = generic_industrial_group
+				add_ideas = generic_medical_group
+				add_ideas = generic_investment_bank
+				add_ideas = generic_tech_enterprise
+				add_ideas = generic_transportation_group
+				
+				# Public Property Act Defaults
+				add_ideas = pps_scope_forbidden
+				add_ideas = pps_gender_none
+				add_ideas = pps_training_none
+				add_ideas = pps_service_none
+				add_ideas = pps_age_none
+				add_ideas = pps_duration_none
+			}
+			# CHI Startup
+			CHI = {
+				# Add new spirits
+				# add_ideas = CHI_chaotic_bureaucracy
+				# add_ideas = CHI_corrupt_officialdom
+				# add_ideas = CHI_hidden_rules
+				# add_ideas = CHI_office_lady
+			}
+		}
+	}
+}

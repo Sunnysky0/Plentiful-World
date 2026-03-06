@@ -1,0 +1,86 @@
+ideas = {
+	country = {
+		CHI_corrupt_military = {
+			picture = GFX_idea_CHI_corrupt_military
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_regain = -0.2
+				attrition = 0.15
+				army_defence_factor = -0.1
+				army_attack_factor = -0.1
+				# Cannot train new units (simulated by extremely long training time)
+				training_time_army_factor = 5.0
+			}
+		}
+		
+		CHI_corrupt_officialdom = {
+			picture = GFX_idea_CHI_corrupt_officialdom
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.25
+				industry_repair_factor = -0.2
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		CHI_hidden_rules = {
+			picture = GFX_idea_CHI_hidden_rules
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.1
+				conscription_factor = -0.15
+				stability_factor = 0.05
+			}
+		}
+		
+		CHI_office_lady = {
+			picture = GFX_idea_CHI_office_lady
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				command_power_gain = 0.5
+			}
+		}
+	}
+}

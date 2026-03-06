@@ -1,0 +1,129 @@
+focus_tree = {
+	id = chi_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHI
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = CHI_Prime_Ministers_Funeral
+		icon = GFX_focus_CHI_sao_xue
+		x = 10
+		y = 0
+		cost = 1
+		completion_reward = {
+			# country_event = { id = CHI_event.1 }
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = CHI_Cabinet_Secret_Meeting
+		icon = GFX_focus_CHI_cabinet_conference
+		prerequisite = { focus = CHI_Prime_Ministers_Funeral }
+		x = -2
+		y = 1
+		relative_position_id = CHI_Prime_Ministers_Funeral
+		cost = 1
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = CHI_Police_Movement
+		icon = GFX_focus_CHI_abnormal_police
+		prerequisite = { focus = CHI_Prime_Ministers_Funeral }
+		x = 2
+		y = 1
+		relative_position_id = CHI_Prime_Ministers_Funeral
+		cost = 1
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = CHI_Connecting_MPs
+		icon = GFX_focus_CHI_contact_senator
+		prerequisite = { focus = CHI_Cabinet_Secret_Meeting }
+		x = 0
+		y = 1.2
+		relative_position_id = CHI_Cabinet_Secret_Meeting
+		cost = 1
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = CHI_Seize_Capital_Media
+		icon = GFX_focus_CHI_public_opinion_control
+		prerequisite = { focus = CHI_Connecting_MPs }
+		x = 0
+		y = 1.2
+		relative_position_id = CHI_Connecting_MPs
+		cost = 1
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = CHI_Bribe_the_Eunuchs
+		icon = GFX_focus_CHI_bribe_eunuchs
+		prerequisite = { focus = CHI_Seize_Capital_Media }
+		x = 0
+		y = 1.2
+		relative_position_id = CHI_Seize_Capital_Media
+		cost = 1
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = CHI_Military_Movement
+		icon = GFX_focus_CHI_abnormal_military
+		prerequisite = { focus = CHI_Police_Movement }
+		x = 0
+		y = 1.2
+		relative_position_id = CHI_Police_Movement
+		cost = 1
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = CHI_Cut_Palace_Energy_Lines
+		icon = GFX_focus_CHI_palace_power_control
+		prerequisite = { focus = CHI_Military_Movement }
+		x = 0
+		y = 1.2
+		relative_position_id = CHI_Military_Movement
+		cost = 1
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = CHI_Takeover_Garrison
+		icon = GFX_focus_CHI_captial_garrison_control
+		prerequisite = { focus = CHI_Cut_Palace_Energy_Lines }
+		x = 0
+		y = 1.2
+		relative_position_id = CHI_Cut_Palace_Energy_Lines
+		cost = 1
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+}

@@ -1,0 +1,28 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_generic_industrial_group"
+		texturefile = "gfx/interface/ideas/generic/generic_industrial.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_medical_group"
+		texturefile = "gfx/interface/ideas/generic/generic_hospital.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_investment_bank"
+		texturefile = "gfx/interface/ideas/generic/generic_ibank.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_tech_enterprise"
+		texturefile = "gfx/interface/ideas/generic/generic_tech.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_transportation_group"
+		texturefile = "gfx/interface/ideas/generic/generic_transport.png"
+	}
+
+}
