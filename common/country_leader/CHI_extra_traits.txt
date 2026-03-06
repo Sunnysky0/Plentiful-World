@@ -1,0 +1,241 @@
+leader_traits = {
+
+	trait_CHI_Li_Linfu = {
+		random = no
+		political_power_gain = 0.2
+		stability_weekly = 0.002
+		subversive_activites_upkeep = -0.2
+		enemy_operative_detection_chance_factor = 0.1
+	}
+
+	trait_CHI_Ziye_Li = {
+		random = no
+		political_power_factor = 0.5
+		stability_factor = 0.6
+		drift_defence_factor = 0.9
+		party_popularity_stability_factor = 0.6
+	}
+
+	trait_CHI_Shangguan_Wan_er = {
+		random = no
+		political_power_gain = 0.8
+		stability_weekly = 0.03
+		compliance_gain = 0.3
+	}
+
+	trait_CHI_Shen_Wan_san = {
+		random = no
+		consumer_goods_factor = -0.5
+		trade_laws_cost_factor = -0.5
+		production_speed_industrial_complex_factor = 0.5
+	}
+
+	trait_CHI_Di_Ren_jie = {
+		random = no
+		subversive_activites_upkeep = -0.8
+		enemy_operative_detection_chance = 0.5
+		intelligence_agency_defense = 0.3
+	}
+
+	trait_CHI_Mo_Zi = {
+		random = no
+		production_speed_bunker_factor = 0.6
+		production_speed_coastal_bunker_factor = 0.6
+		army_core_defence_factor = 0.5
+	}
+
+	trait_CHI_Su_Qin = {
+		random = no
+		opinion_gain_monthly_factor = 0.6
+		trade_opinion_factor = 0.9
+		improve_relations_maintain_cost_factor = -1
+	}
+
+	trait_CHI_Shang_Yang = {
+		random = no
+		mobilization_laws_cost_factor = -0.5
+		political_power_factor = 0.5
+		stability_factor = -0.1
+	}
+
+	trait_CHI_Li_Shi_zhen = {
+		random = no
+		weekly_manpower = 4000
+		non_core_manpower = 0.45
+		army_org_factor = 0.1
+	}
+
+	trait_CHI_Lu_Ban = {
+		random = no
+		production_speed_arms_factory_factor = 0.3
+		production_factory_max_efficiency_factor = 0.4
+		conversion_cost_civ_to_mil_factor = -0.6
+	}
+
+	trait_CHI_Da_Ji = {
+		random = no
+		war_support_factor = 0.5
+		fascist_drift = 0.25
+		justify_war_goal_time = -0.8
+	}
+
+	trait_CHI_Wei_Zhong_xian = {
+		random = no
+		political_power_gain = -0.2
+		trade_opinion_factor = 0.9
+		consumer_goods_factor = 0.1
+	}
+
+	trait_CHI_Xi_Shi = {
+		random = no
+		operative_slot = 3
+		intel_network_gain_factor = 0.5
+		female_operative_chance = 1.0
+	}
+
+	trait_CHI_Cai_Lun = {
+		random = no
+		research_speed_factor = 0.4
+		license_production_cost_factor = -0.5
+	}
+
+	trait_CHI_Zhang_Yi = {
+		random = no
+		boost_ideology_mission_factor = 0.4
+		diplomatic_pressure_mission_factor = 0.3
+		drift_defence_factor = 0.9
+	}
+
+	trait_CHI_Huo_Qu_bing = {
+		random = no
+		army_speed_factor = 0.4
+		training_time_army_factor = -0.4
+		experience_gain_army_factor = 0.4
+	}
+
+	trait_CHI_Zheng_Guo = {
+		random = no
+		production_speed_infrastructure_factor = 0.6
+		production_speed_rail_way_factor = 0.6
+		supply_consumption_factor = -0.2
+	}
+
+	trait_CHI_Sun_Wu = {
+		random = no
+		land_doctrine_cost_factor = -0.4
+		experience_gain_army = 0.8
+		army_org_factor = 0.1
+	}
+
+	trait_CHI_Zheng_He = {
+		random = no
+		naval_doctrine_cost_factor = -0.3
+		naval_range = 0.55
+		experience_gain_navy = 0.8
+	}
+
+	trait_CHI_Feng_Ru = {
+		random = no
+		air_doctrine_cost_factor = -0.4
+		air_agility = 0.45
+		experience_gain_air = 0.8
+	}
+
+	trait_CHI_Yu_Qian = {
+		random = no
+		production_speed_nuclear_reactor_factor = 0.4
+		research_speed_factor = 0.2
+		nuclear_bomb_production_speed_factor = 0.5
+	}
+
+	trait_CHI_Bai_Qi = {
+		random = no
+		army_attack_factor = 0.4
+		army_org_factor = 0.36
+		experience_gain_army = 0.8
+	}
+
+	trait_CHI_Qi_Ji_guang = {
+		random = no
+		army_defence_factor = 0.4
+		army_org_factor = 0.36
+		training_time_army_factor = -0.4
+	}
+
+	trait_CHI_Yuan_Chong_huan = {
+		random = no
+		army_core_defence_factor = 0.5
+		production_speed_bunker_factor = 0.3
+		max_entrenchment = 5
+	}
+
+	trait_CHI_Shi_Lang = {
+		random = no
+		amphibious_invasion = 0.4
+		naval_speed_factor = 0.4
+		experience_gain_navy = 0.8
+	}
+
+	trait_CHI_Liu_Bu_chan = {
+		random = no
+		navy_capital_ship_attack_factor = 0.4
+		navy_capital_ship_defence_factor = 0.4
+		experience_gain_navy_factor = 0.45
+	}
+
+	trait_CHI_Gao_Zhi_hang = {
+		random = no
+		air_superiority_efficiency = 0.4
+		air_ace_generation_chance_factor = 0.4
+		experience_gain_air = 0.8
+	}
+
+	trait_CHI_Claire_Chennault = {
+		random = no
+		air_ground_attack = 0.3
+		air_cas_efficiency = 0.4
+		experience_gain_air_factor = 0.4
+	}
+
+	trait_CHI_Meng_Tian = {
+		random = no
+		army_armor_attack_factor = 0.4
+		army_armor_defence_factor = 0.4
+		army_speed_factor = 0.2
+	}
+
+	trait_CHI_Li_Guang = {
+		random = no
+		cavalry_attack_factor = 0.4
+		motorized_attack_factor = 0.4
+		army_speed_factor = 0.3
+	}
+
+	trait_CHI_Chen_Qing_zhi = {
+		random = no
+		army_infantry_attack_factor = 0.4
+		army_infantry_defence_factor = 0.5
+		army_morale_factor = 0.36
+	}
+
+	trait_CHI_Sun_Bin = {
+		random = no
+		army_artillery_attack_factor = 0.5
+		army_artillery_defence_factor = 0.4
+		combat_width_factor = -0.1
+	}
+
+	trait_CHI_Wang_Ping = {
+		random = no
+		special_forces_attack_factor = 0.15
+		special_forces_defence_factor = 0.15
+		terrain_penalty_reduction = -0.3
+	}
+
+	trait_CHI_Zhou_Yu = {
+		random = no
+		naval_strike_attack_factor = 0.15
+		navy_carrier_air_attack_factor = 0.3
+		sortie_efficiency = 0.5
+	}
+}

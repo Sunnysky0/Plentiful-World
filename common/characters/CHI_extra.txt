@@ -1,0 +1,1067 @@
+characters = {
+
+	CHI_Li_Linfu = {
+		name = CHI_Li_Linfu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Li_Linfu
+				small = GFX_Idea_CHI_Li_Linfu
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Li_Linfu
+			traits = { trait_CHI_Li_Linfu }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Ziye_Li = {
+		name = CHI_Ziye_Li
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Ziye_Li
+				small = GFX_Idea_CHI_Ziye_Li
+			}
+		}
+		country_leader = {
+			ideology = neutrality
+			traits = { trait_CHI_Ziye_Li }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	CHI_Shangguan_Wan_er = {
+		name = CHI_Shangguan_Wan_er
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Shangguan_Wan_er
+				small = GFX_Idea_CHI_Shangguan_Wan_er
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Shangguan_Wan_er
+			traits = { trait_CHI_Shangguan_Wan_er }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Shen_Wan_san = {
+		name = CHI_Shen_Wan_san
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Shen_Wan_san
+				small = GFX_Idea_CHI_Shen_Wan_san
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Shen_Wan_san
+			traits = { trait_CHI_Shen_Wan_san }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Di_Ren_jie = {
+		name = CHI_Di_Ren_jie
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Di_Ren_jie
+				small = GFX_Idea_CHI_Di_Ren_jie
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Di_Ren_jie
+			traits = { trait_CHI_Di_Ren_jie }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Mo_Zi = {
+		name = CHI_Mo_Zi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Mo_Zi
+				small = GFX_Idea_CHI_Mo_Zi
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Mo_Zi
+			traits = { trait_CHI_Mo_Zi }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Su_Qin = {
+		name = CHI_Su_Qin
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Su_Qin
+				small = GFX_Idea_CHI_Su_Qin
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Su_Qin
+			traits = { trait_CHI_Su_Qin }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Shang_Yang = {
+		name = CHI_Shang_Yang
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Shang_Yang
+				small = GFX_Idea_CHI_Shang_Yang
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Shang_Yang
+			traits = { trait_CHI_Shang_Yang }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Li_Shi_zhen = {
+		name = CHI_Li_Shi_zhen
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Li_Shi_zhen
+				small = GFX_Idea_CHI_Li_Shi_zhen
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Li_Shi_zhen
+			traits = { trait_CHI_Li_Shi_zhen }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Lu_Ban = {
+		name = CHI_Lu_Ban
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Lu_Ban
+				small = GFX_Idea_CHI_Lu_Ban
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Lu_Ban
+			traits = { trait_CHI_Lu_Ban }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Da_Ji = {
+		name = CHI_Da_Ji
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Da_Ji
+				small = GFX_Idea_CHI_Da_Ji
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Da_Ji
+			traits = { trait_CHI_Da_Ji }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Wei_Zhong_xian = {
+		name = CHI_Wei_Zhong_xian
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Wei_Zhong_xian
+				small = GFX_Idea_CHI_Wei_Zhong_xian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Wei_Zhong_xian
+			traits = { trait_CHI_Wei_Zhong_xian }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Xi_Shi = {
+		name = CHI_Xi_Shi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Xi_Shi
+				small = GFX_Idea_CHI_Xi_Shi
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Xi_Shi
+			traits = { trait_CHI_Xi_Shi }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Cai_Lun = {
+		name = CHI_Cai_Lun
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Cai_Lun
+				small = GFX_Idea_CHI_Cai_Lun
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Cai_Lun
+			traits = { trait_CHI_Cai_Lun }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Zhang_Yi = {
+		name = CHI_Zhang_Yi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Zhang_Yi
+				small = GFX_Idea_CHI_Zhang_Yi
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Zhang_Yi
+			traits = { trait_CHI_Zhang_Yi }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Huo_Qu_bing = {
+		name = CHI_Huo_Qu_bing
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Huo_Qu_bing
+				small = GFX_Idea_CHI_Huo_Qu_bing
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Huo_Qu_bing
+			traits = { trait_CHI_Huo_Qu_bing }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Zheng_Guo = {
+		name = CHI_Zheng_Guo
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Zheng_Guo
+				small = GFX_Idea_CHI_Zheng_Guo
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Zheng_Guo
+			traits = { trait_CHI_Zheng_Guo }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Sun_Wu = {
+		name = CHI_Sun_Wu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Sun_Wu
+				small = GFX_Idea_CHI_Sun_Wu
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = CHI_Sun_Wu
+			traits = { trait_CHI_Sun_Wu }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Zheng_He = {
+		name = CHI_Zheng_He
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Zheng_He
+				small = GFX_Idea_CHI_Zheng_He
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = CHI_Zheng_He
+			traits = { trait_CHI_Zheng_He }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Feng_Ru = {
+		name = CHI_Feng_Ru
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Feng_Ru
+				small = GFX_Idea_CHI_Feng_Ru
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = CHI_Feng_Ru
+			traits = { trait_CHI_Feng_Ru }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Yu_Qian = {
+		name = CHI_Yu_Qian
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Yu_Qian
+				small = GFX_Idea_CHI_Yu_Qian
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = CHI_Yu_Qian
+			traits = { trait_CHI_Yu_Qian }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Bai_Qi = {
+		name = CHI_Bai_Qi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Bai_Qi
+				small = GFX_Idea_CHI_Bai_Qi
+			}
+		}
+		advisor = {
+			slot = chief_of_army
+			idea_token = CHI_Bai_Qi
+			traits = { trait_CHI_Bai_Qi }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Qi_Ji_guang = {
+		name = CHI_Qi_Ji_guang
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Qi_Ji_guang
+				small = GFX_Idea_CHI_Qi_Ji_guang
+			}
+		}
+		advisor = {
+			slot = chief_of_army
+			idea_token = CHI_Qi_Ji_guang
+			traits = { trait_CHI_Qi_Ji_guang }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Yuan_Chong_huan = {
+		name = CHI_Yuan_Chong_huan
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Yuan_Chong_huan
+				small = GFX_Idea_CHI_Yuan_Chong_huan
+			}
+		}
+		advisor = {
+			slot = chief_of_army
+			idea_token = CHI_Yuan_Chong_huan
+			traits = { trait_CHI_Yuan_Chong_huan }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Shi_Lang = {
+		name = CHI_Shi_Lang
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Shi_Lang
+				small = GFX_Idea_CHI_Shi_Lang
+			}
+		}
+		advisor = {
+			slot = chief_of_navy
+			idea_token = CHI_Shi_Lang
+			traits = { trait_CHI_Shi_Lang }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Liu_Bu_chan = {
+		name = CHI_Liu_Bu_chan
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Liu_Bu_chan
+				small = GFX_Idea_CHI_Liu_Bu_chan
+			}
+		}
+		advisor = {
+			slot = chief_of_navy
+			idea_token = CHI_Liu_Bu_chan
+			traits = { trait_CHI_Liu_Bu_chan }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Gao_Zhi_hang = {
+		name = CHI_Gao_Zhi_hang
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Gao_Zhi_hang
+				small = GFX_Idea_CHI_Gao_Zhi_hang
+			}
+		}
+		advisor = {
+			slot = chief_of_air
+			idea_token = CHI_Gao_Zhi_hang
+			traits = { trait_CHI_Gao_Zhi_hang }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Claire_Chennault = {
+		name = CHI_Claire_Chennault
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Claire_Chennault
+				small = GFX_Idea_CHI_Claire_Chennault
+			}
+		}
+		advisor = {
+			slot = chief_of_air
+			idea_token = CHI_Claire_Chennault
+			traits = { trait_CHI_Claire_Chennault }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Meng_Tian = {
+		name = CHI_Meng_Tian
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Meng_Tian
+				small = GFX_Idea_CHI_Meng_Tian
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CHI_Meng_Tian
+			traits = { trait_CHI_Meng_Tian }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Li_Guang = {
+		name = CHI_Li_Guang
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Li_Guang
+				small = GFX_Idea_CHI_Li_Guang
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CHI_Li_Guang
+			traits = { trait_CHI_Li_Guang }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Chen_Qing_zhi = {
+		name = CHI_Chen_Qing_zhi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Chen_Qing_zhi
+				small = GFX_Idea_CHI_Chen_Qing_zhi
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CHI_Chen_Qing_zhi
+			traits = { trait_CHI_Chen_Qing_zhi }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Sun_Bin = {
+		name = CHI_Sun_Bin
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Sun_Bin
+				small = GFX_Idea_CHI_Sun_Bin
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CHI_Sun_Bin
+			traits = { trait_CHI_Sun_Bin }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Wang_Ping = {
+		name = CHI_Wang_Ping
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Wang_Ping
+				small = GFX_Idea_CHI_Wang_Ping
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CHI_Wang_Ping
+			traits = { trait_CHI_Wang_Ping }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Zhou_Yu = {
+		name = CHI_Zhou_Yu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Zhou_Yu
+				small = GFX_Idea_CHI_Zhou_Yu
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CHI_Zhou_Yu
+			traits = { trait_CHI_Zhou_Yu }
+			allowed = { original_tag = CHI }
+			cost = 100
+		}
+	}
+
+	CHI_Xiang_Yu = {
+		name = CHI_Xiang_Yu
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Xiang_Yu
+				small = GFX_Idea_CHI_Xiang_Yu
+			}
+		}
+		field_marshal = {
+			traits = { trait_CHI_Xiang_Yu }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	CHI_Han_Xin = {
+		name = CHI_Han_Xin
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Han_Xin
+				small = GFX_Idea_CHI_Han_Xin
+			}
+		}
+		field_marshal = {
+			traits = { trait_CHI_Han_Xin }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	CHI_Yue_Fei = {
+		name = CHI_Yue_Fei
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Yue_Fei
+				small = GFX_Idea_CHI_Yue_Fei
+			}
+		}
+		field_marshal = {
+			traits = { trait_CHI_Yue_Fei }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	CHI_Wei_Qing = {
+		name = CHI_Wei_Qing
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Wei_Qing
+				small = GFX_Idea_CHI_Wei_Qing
+			}
+		}
+		field_marshal = {
+			traits = { trait_CHI_Wei_Qing }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+
+	CHI_Lu_Bu = {
+		name = CHI_Lu_Bu
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Lu_Bu
+				small = GFX_Idea_CHI_Lu_Bu
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Lu_Bu }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	CHI_Guan_Yu = {
+		name = CHI_Guan_Yu
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Guan_Yu
+				small = GFX_Idea_CHI_Guan_Yu
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Guan_Yu }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+
+	CHI_Zhang_Fei = {
+		name = CHI_Zhang_Fei
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Zhang_Fei
+				small = GFX_Idea_CHI_Zhang_Fei
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Zhang_Fei }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	CHI_Zhao_Yun = {
+		name = CHI_Zhao_Yun
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Zhao_Yun
+				small = GFX_Idea_CHI_Zhao_Yun
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Zhao_Yun }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+
+	CHI_Ma_Chao = {
+		name = CHI_Ma_Chao
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Ma_Chao
+				small = GFX_Idea_CHI_Ma_Chao
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Ma_Chao }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	CHI_Huang_Zhong = {
+		name = CHI_Huang_Zhong
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Huang_Zhong
+				small = GFX_Idea_CHI_Huang_Zhong
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Huang_Zhong }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	CHI_Qin_Liang_yu = {
+		name = CHI_Qin_Liang_yu
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Qin_Liang_yu
+				small = GFX_Idea_CHI_Qin_Liang_yu
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Qin_Liang_yu }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+
+	CHI_Hua_Mu_lan = {
+		name = CHI_Hua_Mu_lan
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Hua_Mu_lan
+				small = GFX_Idea_CHI_Hua_Mu_lan
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Hua_Mu_lan }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	CHI_Mu_Gui_ying = {
+		name = CHI_Mu_Gui_ying
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Mu_Gui_ying
+				small = GFX_Idea_CHI_Mu_Gui_ying
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Mu_Gui_ying }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+
+	CHI_Liang_Hong_yu = {
+		name = CHI_Liang_Hong_yu
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Liang_Hong_yu
+				small = GFX_Idea_CHI_Liang_Hong_yu
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Liang_Hong_yu }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	CHI_Fan_Li_hua = {
+		name = CHI_Fan_Li_hua
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Fan_Li_hua
+				small = GFX_Idea_CHI_Fan_Li_hua
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Fan_Li_hua }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	CHI_Guo_Zi_yi = {
+		name = CHI_Guo_Zi_yi
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Guo_Zi_yi
+				small = GFX_Idea_CHI_Guo_Zi_yi
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Guo_Zi_yi }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+
+	CHI_Li_Jing = {
+		name = CHI_Li_Jing
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Li_Jing
+				small = GFX_Idea_CHI_Li_Jing
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Li_Jing }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	CHI_Xu_Da = {
+		name = CHI_Xu_Da
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Xu_Da
+				small = GFX_Idea_CHI_Xu_Da
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Xu_Da }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+
+	CHI_Chang_Yu_chun = {
+		name = CHI_Chang_Yu_chun
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Chang_Yu_chun
+				small = GFX_Idea_CHI_Chang_Yu_chun
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Chang_Yu_chun }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	CHI_Zuo_Zong_tang = {
+		name = CHI_Zuo_Zong_tang
+		portraits = {
+			army = {
+				large = GFX_Portrait_CHI_Zuo_Zong_tang
+				small = GFX_Idea_CHI_Zuo_Zong_tang
+			}
+		}
+		corps_commander = {
+			traits = { trait_CHI_Zuo_Zong_tang }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+
+	CHI_Deng_Shi_chang = {
+		name = CHI_Deng_Shi_chang
+		portraits = {
+			navy = {
+				large = GFX_Portrait_CHI_Deng_Shi_chang
+				small = GFX_Idea_CHI_Deng_Shi_chang
+			}
+		}
+		navy_leader = {
+			traits = { trait_CHI_Deng_Shi_chang }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+
+	CHI_Lin_Ze_xu = {
+		name = CHI_Lin_Ze_xu
+		portraits = {
+			navy = {
+				large = GFX_Portrait_CHI_Lin_Ze_xu
+				small = GFX_Idea_CHI_Lin_Ze_xu
+			}
+		}
+		navy_leader = {
+			traits = { trait_CHI_Lin_Ze_xu }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+
+	CHI_Sa_Zhen_bing = {
+		name = CHI_Sa_Zhen_bing
+		portraits = {
+			navy = {
+				large = GFX_Portrait_CHI_Sa_Zhen_bing
+				small = GFX_Idea_CHI_Sa_Zhen_bing
+			}
+		}
+		navy_leader = {
+			traits = { trait_CHI_Sa_Zhen_bing }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+
+	CHI_Chen_Shao_kuan = {
+		name = CHI_Chen_Shao_kuan
+		portraits = {
+			navy = {
+				large = GFX_Portrait_CHI_Chen_Shao_kuan
+				small = GFX_Idea_CHI_Chen_Shao_kuan
+			}
+		}
+		navy_leader = {
+			traits = { trait_CHI_Chen_Shao_kuan }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+
+	CHI_Zheng_Cheng_gong = {
+		name = CHI_Zheng_Cheng_gong
+		portraits = {
+			navy = {
+				large = GFX_Portrait_CHI_Zheng_Cheng_gong
+				small = GFX_Idea_CHI_Zheng_Cheng_gong
+			}
+		}
+		navy_leader = {
+			traits = { trait_CHI_Zheng_Cheng_gong }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+
+	CHI_Cheung_Po_tsai = {
+		name = CHI_Cheung_Po_tsai
+		portraits = {
+			navy = {
+				large = GFX_Portrait_CHI_Cheung_Po_tsai
+				small = GFX_Idea_CHI_Cheung_Po_tsai
+			}
+		}
+		navy_leader = {
+			traits = { trait_CHI_Cheung_Po_tsai }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+}

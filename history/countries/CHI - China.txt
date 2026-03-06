@@ -1,67 +1,5 @@
 capital = 1035 # Nanjing
-
-IF = {
-	limit = {
-		has_dlc = "No Compromise, No Surrender"
-	}
-	set_oob = "CHI_1936_sea"
-	else = {
-		set_oob = "CHI_1936"
-	}
-	if = {
-		limit = {
-			has_dlc = "No Step Back"
-		}
-		create_equipment_variant = {
-			name = "L3/35"
-			type = light_tank_chassis_1
-			parent_version = 0
-			modules = {
-				main_armament_slot = tank_heavy_machine_gun
-				turret_type_slot = tank_light_fixed_superstructure_turret
-				suspension_type_slot = tank_bogie_suspension
-				armor_type_slot = tank_riveted_armor
-				engine_type_slot = tank_gasoline_engine
-			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 1
-				tank_nsb_armor_upgrade = 1
-			}
-			icon = "GFX_ITA_basic_light_tank_medium"
-		}
-		create_equipment_variant = {
-			name = "Panzer I Ausf. A"
-			type = light_tank_chassis_1
-			parent_version = 0
-			modules = {
-				main_armament_slot = tank_heavy_machine_gun
-				turret_type_slot = tank_light_one_man_tank_turret
-				suspension_type_slot = tank_christie_suspension
-				armor_type_slot = tank_riveted_armor
-				engine_type_slot = tank_gasoline_engine
-				special_type_slot_1 = tank_radio_1
-			}
-			upgrades = {
-				tank_nsb_engine_upgrade = 5
-				tank_nsb_armor_upgrade = 1
-			}
-			icon = "GFX_GER_basic_light_tank_medium"
-		}
-
-		add_equipment_to_stockpile = { 
-			type = light_tank_chassis_1
-			variant_name = "L3/35"
-			amount = 20
-			producer = ITA
-		}
-		add_equipment_to_stockpile = { 
-			type = light_tank_chassis_1
-			variant_name = "Panzer I Ausf. A"
-			amount = 16
-			producer = GER
-		}
-	}
-}
+set_oob = "CHI_1936_sea"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "CHI_1936_naval_mtg"
@@ -87,126 +25,9 @@ if = {
 		}
 	}
 }
-
-
-IF = {
-	limit = {
-		has_dlc = "No Compromise, No Surrender"
-	}
-	recruit_character = CHI_carsun_chang
-	recruit_character = CHI_soong_ching_ling
-	recruit_character = CHI_zhang_fakui
-	recruit_character = CHI_feng_yuxiang
-	recruit_character = CHI_jiang_guangnai
-	recruit_character = CHI_cai_tingkai
-	recruit_character = CHI_chen_mingshu
-	recruit_character = CHI_chan_chak
-	recruit_character = CHI_chen_lifu
-	recruit_character = CHI_du_yuesheng
-	recruit_character = CHI_huang_jinrong
-	recruit_character = CHI_chu_minying
-	recruit_character = CHI_mei_siping
-	recruit_character = CHI_zhou_fohai
-	recruit_character = CHI_hu_hanmin
-	recruit_character = CHI_zou_lu
-	recruit_character = CHI_y_c_james_yen
-	recruit_character = CHI_liang_shuming
-	recruit_character = CHI_zou_taofen
-	recruit_character = CHI_tao_xingzhi
-	recruit_character = CHI_shen_junru
-	recruit_character = CHI_shi_liang
-	recruit_character = CHI_chang_kia_ngau
-	recruit_character = CHI_wong_tsu
-	recruit_character = CHI_chu_chia_jen
-	recruit_character = CHI_dai_jitao
-	recruit_character = CHI_zhang_guotao_kmt
-	recruit_character = CHI_jiang_baili
-	recruit_character = CHI_zhang_zhizhong
-	recruit_character = CHI_chen_bijun
-	recruit_character = CHI_chen_gongbo
-	recruit_character = CHI_gao_zongwu
-	recruit_character = CHI_wang_chonghui
-	recruit_character = CHI_mao_renfeng
-	recruit_character = CHI_hsu_huang_sheng
-	recruit_character = CHI_xu_tingyao
-	#recruit_character = CHI_wan_fulin
-	recruit_character = CHI_zhu_shaoliang
-	recruit_character = CHI_jiang_dingwen
-	recruit_character = CHI_jiang_dingwen_admiral
-	recruit_character = CHI_zheng_qi
-	recruit_character = CHI_shen_honglie
-	recruit_character = CHI_gui_yongqing
-	recruit_character = CHI_chen_qingyun
-	recruit_character = CHI_teng_chie
-	recruit_character = CHI_huang_qixiang
-	recruit_character = CHI_ju_zheng
-	recruit_character = CHI_li_huang
-	recruit_character = CHI_zhang_qun
-	recruit_character = CHI_sun_fo
-	recruit_character = CHI_zhang_lan # Needs to be able to be transferred to PRC as well
-	recruit_character = CHI_symeon_du
-	recruit_character = CHI_zhu_jiahua
-	ELSE = { 
-		recruit_character = CHI_zhang_xueliang 
-		recruit_character = CHI_gu_zhutong # Sent to Sichuan
-		recruit_character = CHI_fu_zuoyi # Sent to Shaanxi
-		recruit_character = CHI_chen_jitang # Should be available in CHI at some point
-		recruit_character = CHI_li_zongren # Should be available in CHI at some point
-		recruit_character = CHI_bai_chongxi # Should be available in CHI at some point
-		recruit_character = CHI_yu_hanmou # Should be available in CHI at some point
-		recruit_character = CHI_fang_zeyi # Communist
-		recruit_character = CHI_bo_yibo # Communist
-		recruit_character = CHI_zhu_de # Communist
-		recruit_character = CHI_zhang_guotao # In PRC content 
-		recruit_character = CHI_huang_shen # Not a real person
-	}
-}
-recruit_character = CHI_weng_wenhao
-recruit_character = CHI_random_prince_of_terror 
-recruit_character = CHI_chiang_kaishek
-recruit_character = CHI_wang_jingwei
-recruit_character = CHI_tu_yuming
-recruit_character = CHI_hsueh_yueh
-recruit_character = CHI_tai_anlan
-recruit_character = CHI_wang_yaowu
-recruit_character = CHI_sun_li_jen
-recruit_character = CHI_hu_zongnan
-recruit_character = CHI_wei_lihuang
-recruit_character = CHI_chen_cheng
-recruit_character = CHI_wang_shuming
-recruit_character = CHI_zhou_zhirou # Shared in pre-sea
-recruit_character = CHI_xiao_yisu
-recruit_character = CHI_chen_shaokuan
-recruit_character = CHI_he_yingqin
-recruit_character = CHI_gao_zhihang
-recruit_character = CHI_h_h_kung
-recruit_character = CHI_chen_guofu
-recruit_character = CHI_chiang_ching_kuo
-recruit_character = CHI_chen_yi
-recruit_character = CHI_soong_mei_ling
-recruit_character = CHI_lin_sen
-recruit_character = CHI_wang_ganchang 
-recruit_character = CHI_dai_li # Shared in pre-sea
-recruit_character = CHI_t_v_soong # Shared 
-recruit_character = CHI_alexander_von_falkenhausen # Shared 
-recruit_character = CHI_claire_lee_chennault # Shared 
-recruit_character = CHI_kwong_jiang # Shared 
-
 # Recuit Yuan Shikai
 recruit_character = CHI_yuan_shikai
-
-if = {
-	limit = {
-		has_dlc = "No Compromise, No Surrender"
-	}
-	CHI_chen_shaokuan = {
-		set_character_flag = can_flip_to_prc
-	}
-	CHI_zhang_zhizhong = {
-		set_character_flag = can_flip_to_prc
-	}
-}
-
+recruit_character = CHI_Li_Linfu
 set_stability = 0.2
 set_war_support = 0.32
 # Starting tech
@@ -467,8 +288,6 @@ IF = {
 	}
 }
 
-save_global_event_target_as = WTT_current_china_leader
-
 set_convoys = 400
 
 set_politics = {
@@ -479,6 +298,7 @@ set_politics = {
 }
 
 add_ideas = {
+	CHI_Li_Linfu
 	CHI_corrupt_military
 	CHI_corrupt_officialdom
 	CHI_hidden_rules
@@ -490,85 +310,64 @@ country_lock_all_division_template = yes
 
 promote_character = CHI_yuan_shikai
 
-add_opinion_modifier = { target = PRC modifier = hostile_status }
-
-### VARIANTS ###
-# 1936 Start #
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	# Destroyers #
-	create_equipment_variant = {
-		name = "Chiang Feng Class"			
-		type = ship_hull_light_1
-		name_group = CHI_DD_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
-		}
-	}
-	# Light Cruisers #
-	create_equipment_variant = {
-		name = "Hai Yung Class"					
-		type = ship_hull_cruiser_coastal_defense_ship
-		name_group = CHI_CL_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_armor_slot = ship_armor_cruiser_1
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Ninghai Class"
-		type = ship_hull_cruiser_1
-		name_group = CHI_CL_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
-		}
-	}
-	# Heavy Cruisers #
-	create_equipment_variant = {
-		name = "Chao Ho Class"
-		type = ship_hull_cruiser_coastal_defense_ship
-		name_group = CHI_CL_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_medium_battery_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_cruiser_1
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
-		}
-		obsolete = yes
-	}
-}
+# New Characters Recruitment
+# Generated Characters Recruitment
+	recruit_character = CHI_Ziye_Li
+	recruit_character = CHI_Shangguan_Wan_er
+	recruit_character = CHI_Shen_Wan_san
+	recruit_character = CHI_Di_Ren_jie
+	recruit_character = CHI_Mo_Zi
+	recruit_character = CHI_Su_Qin
+	recruit_character = CHI_Shang_Yang
+	recruit_character = CHI_Li_Shi_zhen
+	recruit_character = CHI_Lu_Ban
+	recruit_character = CHI_Da_Ji
+	recruit_character = CHI_Wei_Zhong_xian
+	recruit_character = CHI_Xi_Shi
+	recruit_character = CHI_Cai_Lun
+	recruit_character = CHI_Zhang_Yi
+	recruit_character = CHI_Huo_Qu_bing
+	recruit_character = CHI_Zheng_Guo
+	recruit_character = CHI_Sun_Wu
+	recruit_character = CHI_Zheng_He
+	recruit_character = CHI_Feng_Ru
+	recruit_character = CHI_Yu_Qian
+	recruit_character = CHI_Bai_Qi
+	recruit_character = CHI_Qi_Ji_guang
+	recruit_character = CHI_Yuan_Chong_huan
+	recruit_character = CHI_Shi_Lang
+	recruit_character = CHI_Liu_Bu_chan
+	recruit_character = CHI_Gao_Zhi_hang
+	recruit_character = CHI_Claire_Chennault
+	recruit_character = CHI_Meng_Tian
+	recruit_character = CHI_Li_Guang
+	recruit_character = CHI_Chen_Qing_zhi
+	recruit_character = CHI_Sun_Bin
+	recruit_character = CHI_Wang_Ping
+	recruit_character = CHI_Zhou_Yu
+	recruit_character = CHI_Xiang_Yu
+	recruit_character = CHI_Han_Xin
+	recruit_character = CHI_Yue_Fei
+	recruit_character = CHI_Wei_Qing
+	recruit_character = CHI_Lu_Bu
+	recruit_character = CHI_Guan_Yu
+	recruit_character = CHI_Zhang_Fei
+	recruit_character = CHI_Zhao_Yun
+	recruit_character = CHI_Ma_Chao
+	recruit_character = CHI_Huang_Zhong
+	recruit_character = CHI_Qin_Liang_yu
+	recruit_character = CHI_Hua_Mu_lan
+	recruit_character = CHI_Mu_Gui_ying
+	recruit_character = CHI_Liang_Hong_yu
+	recruit_character = CHI_Fan_Li_hua
+	recruit_character = CHI_Guo_Zi_yi
+	recruit_character = CHI_Li_Jing
+	recruit_character = CHI_Xu_Da
+	recruit_character = CHI_Chang_Yu_chun
+	recruit_character = CHI_Zuo_Zong_tang
+	recruit_character = CHI_Deng_Shi_chang
+	recruit_character = CHI_Lin_Ze_xu
+	recruit_character = CHI_Sa_Zhen_bing
+	recruit_character = CHI_Chen_Shao_kuan
+	recruit_character = CHI_Zheng_Cheng_gong
+	recruit_character = CHI_Cheung_Po_tsai

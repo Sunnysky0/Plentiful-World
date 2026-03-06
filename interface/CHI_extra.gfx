@@ -1,0 +1,661 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_CHI_Li_Linfu"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Li_Linfu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Li_Linfu"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Li_Linfu.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Ziye_Li"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Ziye_Li.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Ziye_Li"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Ziye_Li.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Shangguan_Wan_er"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Shangguan_Wan_er.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Shangguan_Wan_er"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Shangguan_Wan_er.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Shen_Wan_san"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Shen_Wan_san.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Shen_Wan_san"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Shen_Wan_san.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Di_Ren_jie"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Di_Ren_jie.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Di_Ren_jie"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Di_Ren_jie.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Mo_Zi"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Mo_Zi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Mo_Zi"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Mo_Zi.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Su_Qin"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Su_Qin.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Su_Qin"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Su_Qin.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Shang_Yang"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Shang_Yang.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Shang_Yang"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Shang_Yang.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Li_Shi_zhen"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Li_Shi_zhen.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Li_Shi_zhen"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Li_Shi_zhen.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Lu_Ban"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Lu_Ban.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Lu_Ban"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Lu_Ban.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Da_Ji"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Da_Ji.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Da_Ji"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Da_Ji.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Wei_Zhong_xian"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Wei_Zhong_xian.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Wei_Zhong_xian"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Wei_Zhong_xian.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Xi_Shi"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Xi_Shi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Xi_Shi"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Xi_Shi.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Cai_Lun"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Cai_Lun.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Cai_Lun"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Cai_Lun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Zhang_Yi"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zhang_Yi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Zhang_Yi"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Zhang_Yi.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Huo_Qu_bing"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Huo_Qu_bing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Huo_Qu_bing"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Huo_Qu_bing.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Zheng_Guo"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zheng_Guo.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Zheng_Guo"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Zheng_Guo.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Sun_Wu"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Sun_Wu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Sun_Wu"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Sun_Wu.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Zheng_He"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zheng_He.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Zheng_He"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Zheng_He.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Feng_Ru"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Feng_Ru.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Feng_Ru"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Feng_Ru.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Yu_Qian"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Yu_Qian.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Yu_Qian"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Yu_Qian.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Bai_Qi"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Bai_Qi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Bai_Qi"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Bai_Qi.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Qi_Ji_guang"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Qi_Ji_guang.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Qi_Ji_guang"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Qi_Ji_guang.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Yuan_Chong_huan"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Yuan_Chong_huan.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Yuan_Chong_huan"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Yuan_Chong_huan.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Shi_Lang"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Shi_Lang.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Shi_Lang"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Shi_Lang.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Liu_Bu_chan"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Liu_Bu_chan.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Liu_Bu_chan"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Liu_Bu_chan.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Gao_Zhi_hang"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Gao_Zhi_hang.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Gao_Zhi_hang"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Gao_Zhi_hang.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Claire_Chennault"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Claire_Chennault.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Claire_Chennault"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Claire_Chennault.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Meng_Tian"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Meng_Tian.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Meng_Tian"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Meng_Tian.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Li_Guang"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Li_Guang.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Li_Guang"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Li_Guang.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Chen_Qing_zhi"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Chen_Qing_zhi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Chen_Qing_zhi"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Chen_Qing_zhi.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Sun_Bin"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Sun_Bin.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Sun_Bin"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Sun_Bin.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Wang_Ping"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Wang_Ping.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Wang_Ping"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Wang_Ping.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Zhou_Yu"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zhou_Yu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Zhou_Yu"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Zhou_Yu.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Xiang_Yu"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Xiang_Yu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Xiang_Yu"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Xiang_Yu.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Han_Xin"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Han_Xin.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Han_Xin"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Han_Xin.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Yue_Fei"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Yue_Fei.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Yue_Fei"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Yue_Fei.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Wei_Qing"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Wei_Qing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Wei_Qing"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Wei_Qing.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Lu_Bu"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Lu_Bu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Lu_Bu"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Lu_Bu.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Guan_Yu"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Guan_Yu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Guan_Yu"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Guan_Yu.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Zhang_Fei"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zhang_Fei.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Zhang_Fei"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Zhang_Fei.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Zhao_Yun"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zhao_Yun.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Zhao_Yun"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Zhao_Yun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Ma_Chao"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Ma_Chao.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Ma_Chao"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Ma_Chao.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Huang_Zhong"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Huang_Zhong.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Huang_Zhong"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Huang_Zhong.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Qin_Liang_yu"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Qin_Liang_yu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Qin_Liang_yu"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Qin_Liang_yu.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Hua_Mu_lan"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Hua_Mu_lan.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Hua_Mu_lan"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Hua_Mu_lan.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Mu_Gui_ying"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Mu_Gui_ying.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Mu_Gui_ying"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Mu_Gui_ying.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Liang_Hong_yu"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Liang_Hong_yu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Liang_Hong_yu"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Liang_Hong_yu.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Fan_Li_hua"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Fan_Li_hua.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Fan_Li_hua"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Fan_Li_hua.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Guo_Zi_yi"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Guo_Zi_yi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Guo_Zi_yi"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Guo_Zi_yi.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Li_Jing"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Li_Jing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Li_Jing"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Li_Jing.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Xu_Da"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Xu_Da.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Xu_Da"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Xu_Da.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Chang_Yu_chun"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Chang_Yu_chun.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Chang_Yu_chun"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Chang_Yu_chun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Zuo_Zong_tang"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zuo_Zong_tang.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Zuo_Zong_tang"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Zuo_Zong_tang.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Deng_Shi_chang"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Deng_Shi_chang.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Deng_Shi_chang"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Deng_Shi_chang.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Lin_Ze_xu"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Lin_Ze_xu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Lin_Ze_xu"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Lin_Ze_xu.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Sa_Zhen_bing"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Sa_Zhen_bing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Sa_Zhen_bing"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Sa_Zhen_bing.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Chen_Shao_kuan"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Chen_Shao_kuan.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Chen_Shao_kuan"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Chen_Shao_kuan.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Zheng_Cheng_gong"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zheng_Cheng_gong.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Zheng_Cheng_gong"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Zheng_Cheng_gong.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_CHI_Cheung_Po_tsai"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Cheung_Po_tsai.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Idea_CHI_Cheung_Po_tsai"
+		texturefile = "gfx/interface/ideas/Idea_CHI_Cheung_Po_tsai.dds"
+		legacy_lazy_load = no
+	}
+}

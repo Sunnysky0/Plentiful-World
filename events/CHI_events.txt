@@ -14,3 +14,21 @@ country_event = {
 		add_political_power = 50
 	}
 }
+
+country_event = {
+	id = CHI_event.2
+	title = CHI_event.2.t
+	desc = CHI_event.2.d
+	picture = GFX_report_event_chinese_officers # Replace with better picture if available
+
+	is_triggered_only = yes
+
+	option = {
+		name = CHI_event.2.a
+		remove_advisor = CHI_Li_Linfu
+		set_country_flag = CHI_Li_Linfu_Dead
+		load_focus_tree = { tree = chi_focus_post_li keep_completed = yes }
+		mark_focus_tree_layout_dirty = yes
+		add_stability = -0.10
+	}
+}

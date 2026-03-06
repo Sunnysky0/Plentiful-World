@@ -1,0 +1,701 @@
+[
+  {
+    "name_cn": "紫叶李",
+    "name_en": "Ziye_Li",
+    "role": "country_leader",
+    "traits": {
+      "political_power_factor": 0.5,
+      "stability_factor": 0.6,
+      "drift_defence_factor": 0.9,
+      "party_popularity_stability_factor": 0.6
+    },
+    "desc": "中华帝国的第十一皇子，怀仁堂之变的发动者。她以冷酷的理性和绝对的控制欲，试图将这个沉溺于欲望的帝国重塑为高效的战争机器。"
+  },
+  {
+    "name_cn": "上官婉儿",
+    "name_en": "Shangguan_Wan_er",
+    "role": "political_advisor",
+    "sub_role": "internal_minister",
+    "traits": {
+      "political_power_gain": 0.8,
+      "stability_weekly": 0.03,
+      "compliance_gain": 0.3
+    },
+    "desc": "【首席内务官】皇女的心腹，统管宫廷与内阁文件，擅长用数据和 blackmail 压制反对派。"
+  },
+  {
+    "name_cn": "沈万三",
+    "name_en": "Shen_Wan_san",
+    "role": "political_advisor",
+    "sub_role": "economy_minister",
+    "traits": {
+      "consumer_goods_factor": -0.5,
+      "trade_laws_cost_factor": -0.5,
+      "production_speed_industrial_complex_factor": 0.5
+    },
+    "desc": "【财政大臣】掌握着帝国最大的晶体精炼财团，能凭空变出预算的商业天才。"
+  },
+  {
+    "name_cn": "狄仁杰",
+    "name_en": "Di_Ren_jie",
+    "role": "political_advisor",
+    "sub_role": "security_minister",
+    "traits": {
+      "subversive_activites_upkeep": -0.80,
+      "enemy_operative_detection_chance": 0.5,
+      "intelligence_agency_defense": 0.3
+    },
+    "desc": "【安全局长】拥有义眼侦探之称，没有任何间谍能逃过他的逻辑网络。"
+  },
+  {
+    "name_cn": "墨子",
+    "name_en": "Mo_Zi",
+    "role": "political_advisor",
+    "sub_role": "fortification_engineer",
+    "traits": {
+      "production_speed_bunker_factor": 0.6,
+      "production_speed_coastal_bunker_factor": 0.6,
+      "army_core_defence_factor": 0.5
+    },
+    "desc": "【兼爱防务公司CEO】主张非攻即是绝对防御，负责构建环京师防御圈。"
+  },
+  {
+    "name_cn": "苏秦",
+    "name_en": "Su_Qin",
+    "role": "political_advisor",
+    "sub_role": "foreign_minister",
+    "traits": {
+      "opinion_gain_monthly_factor": 0.6,
+      "trade_opinion_factor": 0.9,
+      "improve_relations_maintain_cost_factor": -1
+    },
+    "desc": "【外交总长】合纵连横的大师，善于在列强间周旋以获取物资。"
+  },
+  {
+    "name_cn": "商鞅",
+    "name_en": "Shang_Yang",
+    "role": "political_advisor",
+    "sub_role": "law_advisor",
+    "traits": {
+      "mobilization_laws_cost_factor": -0.5,
+      "political_power_factor": 0.5,
+      "stability_factor": -0.1
+    },
+    "desc": "【法家执行官】推行严酷的“连坐法”，极大提高了行政效率但引发底层恐惧。"
+  },
+  {
+    "name_cn": "李时珍",
+    "name_en": "Li_Shi_zhen",
+    "role": "political_advisor",
+    "sub_role": "health_minister",
+    "traits": {
+      "weekly_manpower": 4000,
+      "non_core_manpower": 0.45,
+      "army_org_factor": 0.1
+    },
+    "desc": "【生命科学院院长】负责管理国民的生理健康与欲望结晶提取的副作用控制。"
+  },
+  {
+    "name_cn": "鲁班",
+    "name_en": "Lu_Ban",
+    "role": "political_advisor",
+    "sub_role": "armament_organizer",
+    "traits": {
+      "production_speed_arms_factory_factor": 0.3,
+      "production_factory_max_efficiency_factor": 0.4,
+      "conversion_cost_civ_to_mil_factor": -0.6
+    },
+    "desc": "【公输重工首席】机械飞升派的领袖，负责军工生产线的优化。"
+  },
+  {
+    "name_cn": "妲己",
+    "name_en": "Da_Ji",
+    "role": "political_advisor",
+    "sub_role": "propaganda_minister",
+    "traits": {
+      "war_support_factor": 0.5,
+      "fascist_drift": 0.25,
+      "justify_war_goal_time": -0.8
+    },
+    "desc": "【魅惑广播台台长】她的声音能通过广播诱发听众的狂热与杀戮欲望。"
+  },
+  {
+    "name_cn": "魏忠贤",
+    "name_en": "Wei_Zhong_xian",
+    "role": "political_advisor",
+    "sub_role": "corrupt_bureaucrat",
+    "traits": {
+      "political_power_gain": -0.2,
+      "trade_opinion_factor": 0.9,
+      "consumer_goods_factor": 0.1
+    },
+    "desc": "【旧内廷总管】虽然贪婪，但他掌握着庞大的黑市网络，对获取稀有资源至关重要。"
+  },
+  {
+    "name_cn": "西施",
+    "name_en": "Xi_Shi",
+    "role": "political_advisor",
+    "sub_role": "spy_master",
+    "traits": {
+      "operative_slot": 3,
+      "intel_network_gain_factor": 0.5,
+      "female_operative_chance": 1.0
+    },
+    "desc": "【特情局局长】专门培养被称为“沉鱼”的美女间谍，渗透敌国高层。"
+  },
+  {
+    "name_cn": "蔡伦",
+    "name_en": "Cai_Lun",
+    "role": "political_advisor",
+    "sub_role": "research_director",
+    "traits": {
+      "research_speed_factor": 0.4,
+      "license_production_cost_factor": -0.5
+    },
+    "desc": "【科技部尚书】改良了信息存储技术，大幅提升了科研数据的流转速度。"
+  },
+  {
+    "name_cn": "张仪",
+    "name_en": "Zhang_Yi",
+    "role": "political_advisor",
+    "sub_role": "ideological_crusader",
+    "traits": {
+      "boost_ideology_mission_factor": 0.4,
+      "diplomatic_pressure_mission_factor": 0.3,
+      "drift_defence_factor": 0.9
+    },
+    "desc": "【帝国宣讲团长】擅长用言语瓦解敌人的意志，并在国际上为帝国辩护。"
+  },
+  {
+    "name_cn": "霍去病",
+    "name_en": "Huo_Qu_bing",
+    "role": "political_advisor",
+    "sub_role": "army_organizer",
+    "traits": {
+      "army_speed_factor": 0.4,
+      "training_time_army_factor": -0.4,
+      "experience_gain_army_factor": 0.4
+    },
+    "desc": "【青年近卫军督导】主张闪电战术，负责训练高机动性的突击部队。"
+  },
+  {
+    "name_cn": "郑国",
+    "name_en": "Zheng_Guo",
+    "role": "political_advisor",
+    "sub_role": "infrastructure_builder",
+    "traits": {
+      "production_speed_infrastructure_factor": 0.6,
+      "production_speed_rail_way_factor": 0.6,
+      "supply_consumption_factor": -0.2
+    },
+    "desc": "【水利交通署长】负责修建连接各个能源节点的“欲望运河”和高速铁路。"
+  },
+  {
+    "name_cn": "孙武",
+    "name_en": "Sun_Wu",
+    "role": "theorist",
+    "sub_role": "military_theorist",
+    "traits": {
+      "land_doctrine_cost_factor": -0.4,
+      "experience_gain_army": 0.8,
+      "army_org_factor": 0.1
+    },
+    "desc": "【兵圣】他的《新孙子兵法》结合了心理战与晶体武器运用，是帝国陆军的教条。"
+  },
+  {
+    "name_cn": "郑和",
+    "name_en": "Zheng_He",
+    "role": "theorist",
+    "sub_role": "naval_theorist",
+    "traits": {
+      "naval_doctrine_cost_factor": -0.3,
+      "naval_range": 0.55,
+      "experience_gain_navy": 0.8
+    },
+    "desc": "【远洋舰队提督】主张建立全球性的远洋补给链，以掠夺海外结晶资源。"
+  },
+  {
+    "name_cn": "冯如",
+    "name_en": "Feng_Ru",
+    "role": "theorist",
+    "sub_role": "air_theorist",
+    "traits": {
+      "air_doctrine_cost_factor": -0.4,
+      "air_agility": 0.45,
+      "experience_gain_air": 0.8
+    },
+    "desc": "【航空先驱】致力于开发高敏捷的喷气式战机，主张制空权决定战争胜负。"
+  },
+  {
+    "name_cn": "于谦",
+    "name_en": "Yu_Qian",
+    "role": "theorist",
+    "sub_role": "nuclear_theorist",
+    "traits": {
+      "production_speed_nuclear_reactor_factor": 0.4,
+      "research_speed_factor": 0.2,
+      "nuclear_bomb_production_speed_factor": 0.5
+    },
+    "desc": "【高能物理学家】研究如何将欲望结晶裂变引发毁灭性的“粉红核爆”。"
+  },
+  {
+    "name_cn": "白起",
+    "name_en": "Bai_Qi",
+    "role": "army_chief",
+    "traits": {
+      "army_attack_factor": 0.4,
+      "army_org_factor": 0.36,
+      "experience_gain_army": 0.8
+    },
+    "desc": "【人屠】帝国陆军总参谋长，主张歼灭战，不在乎伤亡，只在乎敌人的毁灭。"
+  },
+  {
+    "name_cn": "戚继光",
+    "name_en": "Qi_Ji_guang",
+    "role": "army_chief",
+    "traits": {
+      "army_defence_factor": 0.4,
+      "army_org_factor": 0.36,
+      "training_time_army_factor": -0.4
+    },
+    "desc": "【练兵大师】擅长编组针对性的特种部队，重视纪律与防御。"
+  },
+  {
+    "name_cn": "袁崇焕",
+    "name_en": "Yuan_Chong_huan",
+    "role": "army_chief",
+    "traits": {
+      "army_core_defence_factor": 0.5,
+      "production_speed_bunker_factor": 0.3,
+      "max_entrenchment": 5
+    },
+    "desc": "【宁远铁壁】擅长依托工事进行防御作战，是守卫京师的关键人物。"
+  },
+  {
+    "name_cn": "施琅",
+    "name_en": "Shi_Lang",
+    "role": "navy_chief",
+    "traits": {
+      "amphibious_invasion": 0.4,
+      "naval_speed_factor": 0.4,
+      "experience_gain_navy": 0.8
+    },
+    "desc": "【海疆提督】专注于两栖登陆作战与近海防御。"
+  },
+  {
+    "name_cn": "刘步蟾",
+    "name_en": "Liu_Bu_chan",
+    "role": "navy_chief",
+    "traits": {
+      "navy_capital_ship_attack_factor": 0.4,
+      "navy_capital_ship_defence_factor": 0.4,
+      "experience_gain_navy_factor": 0.45
+    },
+    "desc": "【巨舰大炮派】主张建造超重型战列舰以碾压敌方舰队。"
+  },
+  {
+    "name_cn": "高志航",
+    "name_en": "Gao_Zhi_hang",
+    "role": "air_chief",
+    "traits": {
+      "air_superiority_efficiency": 0.4,
+      "air_ace_generation_chance_factor": 0.4,
+      "experience_gain_air": 0.8
+    },
+    "desc": "【空军战神】王牌飞行员教官，专注于战斗机的格斗性能。"
+  },
+  {
+    "name_cn": "陈纳德",
+    "name_en": "Claire_Chennault",
+    "role": "air_chief",
+    "traits": {
+      "air_ground_attack": 0.3,
+      "air_cas_efficiency": 0.4,
+      "experience_gain_air_factor": 0.4
+    },
+    "desc": "【飞虎队顾问】（客卿）虽然是外国人，但其雇佣军空军理论深受帝国重视。"
+  },
+  {
+    "name_cn": "蒙恬",
+    "name_en": "Meng_Tian",
+    "role": "high_command",
+    "traits": {
+      "army_armor_attack_factor": 0.4,
+      "army_armor_defence_factor": 0.4,
+      "army_speed_factor": 0.2
+    },
+    "desc": "【装甲兵总监】负责帝国重型装甲师的指挥与部署。"
+  },
+  {
+    "name_cn": "李广",
+    "name_en": "Li_Guang",
+    "role": "high_command",
+    "traits": {
+      "cavalry_attack_factor": 0.4,
+      "motorized_attack_factor": 0.4,
+      "army_speed_factor": 0.3
+    },
+    "desc": "【飞将军】负责快速反应部队与摩托化步兵。"
+  },
+  {
+    "name_cn": "陈庆之",
+    "name_en": "Chen_Qing_zhi",
+    "role": "high_command",
+    "traits": {
+      "army_infantry_attack_factor": 0.4,
+      "army_infantry_defence_factor": 0.5,
+      "army_morale_factor": 0.36
+    },
+    "desc": "【白袍军神】即使兵力劣势也能通过高超指挥以少胜多，负责步兵统筹。"
+  },
+  {
+    "name_cn": "孙膑",
+    "name_en": "Sun_Bin",
+    "role": "high_command",
+    "traits": {
+      "army_artillery_attack_factor": 0.5,
+      "army_artillery_defence_factor": 0.4,
+      "combat_width_factor": -0.1
+    },
+    "desc": "【炮兵总监】精通远程火力覆盖与阵地战法。"
+  },
+  {
+    "name_cn": "王平",
+    "name_en": "Wang_Ping",
+    "role": "high_command",
+    "traits": {
+      "special_forces_attack_factor": 0.15,
+      "special_forces_defence_factor": 0.15,
+      "terrain_penalty_reduction": -0.3
+    },
+    "desc": "【无当飞军】负责山地部队与特种作战。"
+  },
+  {
+    "name_cn": "周瑜",
+    "name_en": "Zhou_Yu",
+    "role": "high_command",
+    "traits": {
+      "naval_strike_attack_factor": 0.15,
+      "navy_carrier_air_attack_factor": 0.3,
+      "sortie_efficiency": 0.5
+    },
+    "desc": "【海航总监】主张航母决战，精通火攻（燃烧弹空袭）。"
+  },
+  {
+    "name_cn": "项羽",
+    "name_en": "Xiang_Yu",
+    "role": "army_leader",
+    "skill": 5,
+    "traits": {
+      "trait_type": "field_marshal",
+      "army_attack_factor": 0.5,
+      "army_armor_attack_factor": 0.4,
+      "planning_speed": -0.2
+    },
+    "desc": "【霸王机甲】装备了帝国最先进的单兵外骨骼，性格暴躁但战斗力无人能敌。"
+  },
+  {
+    "name_cn": "韩信",
+    "name_en": "Han_Xin",
+    "role": "army_leader",
+    "skill": 5,
+    "traits": {
+      "trait_type": "field_marshal",
+      "planning_speed": 0.5,
+      "max_planning": 0.5,
+      "supply_consumption_factor": -0.2
+    },
+    "desc": "【国士无双】战术电脑植入者，能同时计算数百万个战术变量。"
+  },
+  {
+    "name_cn": "岳飞",
+    "name_en": "Yue_Fei",
+    "role": "army_leader",
+    "skill": 5,
+    "traits": {
+      "trait_type": "field_marshal",
+      "army_org_factor": 0.4,
+      "army_defence_factor": 0.4,
+      "army_morale_factor": 0.5
+    },
+    "desc": "【武穆遗书】帝国最忠诚的元帅，其部队拥有坚不可摧的意志。"
+  },
+  {
+    "name_cn": "卫青",
+    "name_en": "Wei_Qing",
+    "role": "army_leader",
+    "skill": 4,
+    "traits": {
+      "trait_type": "field_marshal",
+      "cavalry_attack_factor": 0.4,
+      "army_speed_factor": 0.3
+    },
+    "desc": "【长平侯】擅长长途奔袭与大规模迂回包抄。"
+  },
+  {
+    "name_cn": "吕布",
+    "name_en": "Lu_Bu",
+    "role": "army_leader",
+    "skill": 5,
+    "traits": {
+      "trait_type": "general",
+      "army_attack_factor": 0.6,
+      "army_defence_factor": -0.1,
+      "reliability": -0.2
+    },
+    "desc": "【飞将】战斗力极强但极度不稳定，随时可能因为更高的出价而叛变。"
+  },
+  {
+    "name_cn": "关羽",
+    "name_en": "Guan_Yu",
+    "role": "army_leader",
+    "skill": 4,
+    "traits": {
+      "trait_type": "general",
+      "army_attack_factor": 0.3,
+      "army_core_attack_factor": 0.5
+    },
+    "desc": "【武圣】擅长对核心领土的防守反击，刀锋所指，所向披靡。"
+  },
+  {
+    "name_cn": "张飞",
+    "name_en": "Zhang_Fei",
+    "role": "army_leader",
+    "skill": 3,
+    "traits": {
+      "trait_type": "general",
+      "army_org_factor": -0.1,
+      "army_attack_factor": 0.4,
+      "river_crossing_penalty": -0.5
+    },
+    "desc": "【万人敌】咆哮能震慑敌军，擅长强渡河流与突破防线。"
+  },
+  {
+    "name_cn": "赵云",
+    "name_en": "Zhao_Yun",
+    "role": "army_leader",
+    "skill": 4,
+    "traits": {
+      "trait_type": "general",
+      "army_defence_factor": 0.3,
+      "out_of_supply_factor": -0.5
+    },
+    "desc": "【常胜将军】擅长在补给线断绝的情况下进行突围战。"
+  },
+  {
+    "name_cn": "马超",
+    "name_en": "Ma_Chao",
+    "role": "army_leader",
+    "skill": 3,
+    "traits": {
+      "trait_type": "general",
+      "cavalry_attack_factor": 0.5,
+      "motorized_attack_factor": 0.3
+    },
+    "desc": "【神威天将军】西凉铁骑的统帅，精通机械化部队的冲锋。"
+  },
+  {
+    "name_cn": "黄忠",
+    "name_en": "Huang_Zhong",
+    "role": "army_leader",
+    "skill": 3,
+    "traits": {
+      "trait_type": "general",
+      "army_artillery_attack_factor": 0.4,
+      "army_defence_factor": 0.2
+    },
+    "desc": "【老当益壮】狙击与炮兵指挥专家。"
+  },
+  {
+    "name_cn": "秦良玉",
+    "name_en": "Qin_Liang_yu",
+    "role": "army_leader",
+    "skill": 4,
+    "traits": {
+      "trait_type": "general",
+      "army_org_factor": 0.3,
+      "terrain_penalty_reduction": -0.3
+    },
+    "desc": "【白杆兵统领】女性将领的杰出代表，擅长山地与复杂地形作战。"
+  },
+  {
+    "name_cn": "花木兰",
+    "name_en": "Hua_Mu_lan",
+    "role": "army_leader",
+    "skill": 3,
+    "traits": {
+      "trait_type": "general",
+      "recruitable_population_factor": 0.1,
+      "army_morale_factor": 0.2
+    },
+    "desc": "【替父从军】她的故事激励着无数女性加入军队。"
+  },
+  {
+    "name_cn": "穆桂英",
+    "name_en": "Mu_Gui_ying",
+    "role": "army_leader",
+    "skill": 4,
+    "traits": {
+      "trait_type": "general",
+      "planning_speed": 0.3,
+      "army_attack_factor": 0.2
+    },
+    "desc": "【挂帅】擅长阵法与战术规划。"
+  },
+  {
+    "name_cn": "梁红玉",
+    "name_en": "Liang_Hong_yu",
+    "role": "army_leader",
+    "skill": 3,
+    "traits": {
+      "trait_type": "general",
+      "river_crossing_penalty": -0.8,
+      "drum_morale_boost": 0.3
+    },
+    "desc": "【击鼓退金兵】擅长水网地带作战与鼓舞士气。"
+  },
+  {
+    "name_cn": "樊梨花",
+    "name_en": "Fan_Li_hua",
+    "role": "army_leader",
+    "skill": 3,
+    "traits": {
+      "trait_type": "general",
+      "magic_attack_factor": 0.2,
+      "army_soft_attack_factor": 0.3
+    },
+    "desc": "【移山倒海】擅长使用生化武器与非常规战术。"
+  },
+  {
+    "name_cn": "郭子仪",
+    "name_en": "Guo_Zi_yi",
+    "role": "army_leader",
+    "skill": 4,
+    "traits": {
+      "trait_type": "general",
+      "army_defence_factor": 0.4,
+      "stability_factor": 0.1
+    },
+    "desc": "【再造唐室】极高的防御能力，且能通过个人威望稳定军心。"
+  },
+  {
+    "name_cn": "李靖",
+    "name_en": "Li_Jing",
+    "role": "army_leader",
+    "skill": 5,
+    "traits": {
+      "trait_type": "general",
+      "army_speed_factor": 0.3,
+      "army_attack_factor": 0.3
+    },
+    "desc": "【托塔天王】全能型将领，无论是进攻还是机动都无可挑剔。"
+  },
+  {
+    "name_cn": "徐达",
+    "name_en": "Xu_Da",
+    "role": "army_leader",
+    "skill": 4,
+    "traits": {
+      "trait_type": "general",
+      "army_attack_against_major_factor": 0.4,
+      "army_org_factor": 0.2
+    },
+    "desc": "【万里长城】擅长对付强大的敌人，也是扫清北元的主力。"
+  },
+  {
+    "name_cn": "常遇春",
+    "name_en": "Chang_Yu_chun",
+    "role": "army_leader",
+    "skill": 3,
+    "traits": {
+      "trait_type": "general",
+      "army_attack_factor": 0.4,
+      "army_defence_factor": -0.2
+    },
+    "desc": "【常十万】极其凶猛的先锋将领，只懂进攻不懂防守。"
+  },
+  {
+    "name_cn": "左宗棠",
+    "name_en": "Zuo_Zong_tang",
+    "role": "army_leader",
+    "skill": 4,
+    "traits": {
+      "trait_type": "general",
+      "supply_consumption_factor": -0.3,
+      "desert_penalty_reduction": -0.5
+    },
+    "desc": "【收复新疆】擅长在恶劣的沙漠环境中作战与后勤维持。"
+  },
+  {
+    "name_cn": "邓世昌",
+    "name_en": "Deng_Shi_chang",
+    "role": "navy_leader",
+    "skill": 4,
+    "traits": {
+      "trait_type": "admiral",
+      "navy_capital_ship_attack_factor": 0.4,
+      "navy_morale_factor": 0.5
+    },
+    "desc": "【撞击战术】即使弹尽粮绝也会驾驶战舰撞向敌人的猛将。"
+  },
+  {
+    "name_cn": "林则徐",
+    "name_en": "Lin_Ze_xu",
+    "role": "navy_leader",
+    "skill": 3,
+    "traits": {
+      "trait_type": "admiral",
+      "navy_coastal_defence_factor": 0.5,
+      "trade_interdiction_efficiency": 0.3
+    },
+    "desc": "【虎门销烟】擅长近海封锁与打击走私舰队。"
+  },
+  {
+    "name_cn": "萨镇冰",
+    "name_en": "Sa_Zhen_bing",
+    "role": "navy_leader",
+    "skill": 3,
+    "traits": {
+      "trait_type": "admiral",
+      "navy_screen_defence_factor": 0.4,
+      "navy_org_factor": 0.2
+    },
+    "desc": "【海军元老】稳健的舰队指挥官，注重舰队的生存能力。"
+  },
+  {
+    "name_cn": "陈绍宽",
+    "name_en": "Chen_Shao_kuan",
+    "role": "navy_leader",
+    "skill": 3,
+    "traits": {
+      "trait_type": "admiral",
+      "navy_carrier_air_agility_factor": 0.3,
+      "navy_speed_factor": 0.2
+    },
+    "desc": "【航母梦】一直致力于建立航母编队的海军次长。"
+  },
+  {
+    "name_cn": "郑成功",
+    "name_en": "Zheng_Cheng_gong",
+    "role": "navy_leader",
+    "skill": 4,
+    "traits": {
+      "trait_type": "admiral",
+      "amphibious_invasion": 0.5,
+      "navy_attack_factor": 0.3
+    },
+    "desc": "【国姓爷】收复台湾的英雄，精通两栖登陆与岛屿争夺。"
+  },
+  {
+    "name_cn": "张保仔",
+    "name_en": "Cheung_Po_tsai",
+    "role": "navy_leader",
+    "skill": 3,
+    "traits": {
+      "trait_type": "admiral",
+      "convoy_raiding_efficiency_factor": 0.6,
+      "navy_visibility": -0.2
+    },
+    "desc": "【海盗王】被招安的海盗头子，最擅长劫掠商船与游击海战。"
+  }
+]

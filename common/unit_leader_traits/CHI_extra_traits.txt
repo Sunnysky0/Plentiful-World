@@ -1,0 +1,163 @@
+leader_traits = {
+
+	trait_CHI_Xiang_Yu = {
+		random = no
+		army_attack_factor = 0.5
+		army_armor_attack_factor = 0.4
+		planning_speed = -0.2
+	}
+
+	trait_CHI_Han_Xin = {
+		random = no
+		planning_speed = 0.5
+		max_planning = 0.5
+		supply_consumption_factor = -0.2
+	}
+
+	trait_CHI_Yue_Fei = {
+		random = no
+		army_org_factor = 0.4
+		army_defence_factor = 0.4
+		army_morale_factor = 0.5
+	}
+
+	trait_CHI_Wei_Qing = {
+		random = no
+		cavalry_attack_factor = 0.4
+		army_speed_factor = 0.3
+	}
+
+	trait_CHI_Lu_Bu = {
+		random = no
+		army_attack_factor = 0.6
+		army_defence_factor = -0.1
+		reliability = -0.2
+	}
+
+	trait_CHI_Guan_Yu = {
+		random = no
+		army_attack_factor = 0.3
+		army_core_attack_factor = 0.5
+	}
+
+	trait_CHI_Zhang_Fei = {
+		random = no
+		army_org_factor = -0.1
+		army_attack_factor = 0.4
+		river_crossing_penalty = -0.5
+	}
+
+	trait_CHI_Zhao_Yun = {
+		random = no
+		army_defence_factor = 0.3
+		out_of_supply_factor = -0.5
+	}
+
+	trait_CHI_Ma_Chao = {
+		random = no
+		cavalry_attack_factor = 0.5
+		motorized_attack_factor = 0.3
+	}
+
+	trait_CHI_Huang_Zhong = {
+		random = no
+		army_artillery_attack_factor = 0.4
+		army_defence_factor = 0.2
+	}
+
+	trait_CHI_Qin_Liang_yu = {
+		random = no
+		army_org_factor = 0.3
+		terrain_penalty_reduction = -0.3
+	}
+
+	trait_CHI_Hua_Mu_lan = {
+		random = no
+		recruitable_population_factor = 0.1
+		army_morale_factor = 0.2
+	}
+
+	trait_CHI_Mu_Gui_ying = {
+		random = no
+		planning_speed = 0.3
+		army_attack_factor = 0.2
+	}
+
+	trait_CHI_Liang_Hong_yu = {
+		random = no
+		river_crossing_penalty = -0.8
+		drum_morale_boost = 0.3
+	}
+
+	trait_CHI_Fan_Li_hua = {
+		random = no
+		magic_attack_factor = 0.2
+		army_soft_attack_factor = 0.3
+	}
+
+	trait_CHI_Guo_Zi_yi = {
+		random = no
+		army_defence_factor = 0.4
+		stability_factor = 0.1
+	}
+
+	trait_CHI_Li_Jing = {
+		random = no
+		army_speed_factor = 0.3
+		army_attack_factor = 0.3
+	}
+
+	trait_CHI_Xu_Da = {
+		random = no
+		army_attack_against_major_factor = 0.4
+		army_org_factor = 0.2
+	}
+
+	trait_CHI_Chang_Yu_chun = {
+		random = no
+		army_attack_factor = 0.4
+		army_defence_factor = -0.2
+	}
+
+	trait_CHI_Zuo_Zong_tang = {
+		random = no
+		supply_consumption_factor = -0.3
+		desert_penalty_reduction = -0.5
+	}
+
+	trait_CHI_Deng_Shi_chang = {
+		random = no
+		navy_capital_ship_attack_factor = 0.4
+		navy_morale_factor = 0.5
+	}
+
+	trait_CHI_Lin_Ze_xu = {
+		random = no
+		navy_coastal_defence_factor = 0.5
+		trade_interdiction_efficiency = 0.3
+	}
+
+	trait_CHI_Sa_Zhen_bing = {
+		random = no
+		navy_screen_defence_factor = 0.4
+		navy_org_factor = 0.2
+	}
+
+	trait_CHI_Chen_Shao_kuan = {
+		random = no
+		navy_carrier_air_agility_factor = 0.3
+		navy_speed_factor = 0.2
+	}
+
+	trait_CHI_Zheng_Cheng_gong = {
+		random = no
+		amphibious_invasion = 0.5
+		navy_attack_factor = 0.3
+	}
+
+	trait_CHI_Cheung_Po_tsai = {
+		random = no
+		convoy_raiding_efficiency_factor = 0.6
+		navy_visibility = -0.2
+	}
+}

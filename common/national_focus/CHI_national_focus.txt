@@ -12,13 +12,38 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	focus = {
+		id = CHI_Banquet_of_Splendid_Years
+		icon = GFX_focus_CHI_sao_xue
+		x = 10
+		y = 0
+		cost = 10
+		completion_reward = {
+			country_event = { id = CHI_event.2 }
+			add_political_power = 50
+		}
+	}
+}
+
+focus_tree = {
+	id = chi_focus_post_li
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHI
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
 		id = CHI_Prime_Ministers_Funeral
 		icon = GFX_focus_CHI_sao_xue
 		x = 10
 		y = 0
 		cost = 1
 		completion_reward = {
-			# country_event = { id = CHI_event.1 }
 			add_political_power = 50
 		}
 	}
