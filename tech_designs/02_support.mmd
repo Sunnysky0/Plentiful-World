@@ -1,0 +1,150 @@
+graph TD
+    %% Support Tech Tree - Plentiful World Mod
+    %% Theme: 1936-1956+ (From WWII to Cyberpunk/Sci-Fi)
+
+    %% ==========================================
+    %% 1. 基础支援装备 (Base Support)
+    %% ==========================================
+    SupEq["1936 基础支援装备<br/>通用支援设备"]
+
+    %% ==========================================
+    %% 2. 地面支援连队 (Ground Support Companies)
+    %% ==========================================
+    
+    %% 工兵 (Engineer)
+    subgraph Engineer [工兵连]
+        direction TB
+        Eng1["1936 战斗工兵<br/>堑壕 爆破"] --> Eng2["1939 突击工兵<br/>火焰喷射器 破障"]
+        Eng2 --> Eng3["1942 机械化工程车<br/>架桥坦克 快速筑垒"]
+        Eng3 --> Eng4["1946 外骨骼工程队<br/>动力甲施工"]
+        Eng4 --> Eng5["1951 纳米建筑蜂群<br/>自动修复工事"]
+    end
+
+    %% 侦察 (Recon)
+    subgraph Recon [侦察连]
+        direction TB
+        Rec1["1936 骑兵/摩托侦察"] --> Rec2["1939 装甲侦察车<br/>轻型装甲 突袭"]
+        Rec2 --> Rec3["1942 早期无人机侦察<br/>无线电遥控"]
+        Rec3 --> Rec4["1946 隐形侦察队<br/>光学迷彩原型"]
+        Rec4 --> Rec5["1951 全息投影诱饵<br/>战场欺诈"]
+    end
+
+    %% 宪兵 (Military Police)
+    subgraph MP [宪兵连]
+        direction TB
+        MP1["1936 军事警察<br/>镇压 治安"] --> MP2["1939 防暴部队<br/>非致命武器"]
+        MP2 --> MP3["1943 思想纠察队<br/>甄别叛徒 强制忠诚"]
+        MP3 --> MP4["1948 行为矫正芯片<br/>预防犯罪"]
+        MP4 --> MP5["1954 蜂巢思维执法者<br/>绝对秩序"]
+    end
+
+    %% 维修 (Maintenance)
+    subgraph Maint [维修连]
+        direction TB
+        Maint1["1936 野战维修站"] --> Maint2["1939 装甲抢修车<br/>战场回收"]
+        Maint2 --> Maint3["1942 移动工厂<br/>零件前线制造"]
+        Maint3 --> Maint4["1946 3D打印维修舱<br/>快速成型"]
+        Maint4 --> Maint5["1952 自修复纳米涂层<br/>自动愈合装甲"]
+    end
+
+    %% 后勤 (Logistics)
+    subgraph Log [后勤连]
+        direction TB
+        Log1["1936 骡马/卡车运输队"] --> Log2["1940 托盘化物流系统<br/>效率提升"]
+        Log2 --> Log3["1944 自动化补给线<br/>无人卡车"]
+        Log3 --> Log4["1949 空中快递无人机<br/>定点投送"]
+        Log4 --> Log5["1955 物质传输信标<br/>量子传送补给"]
+    end
+
+    %% 野战医院 (Hospital)
+    subgraph Hosp [野战医院]
+        direction TB
+        Hosp1["1936 野战救护队"] --> Hosp2["1939 移动手术车<br/>前线手术"]
+        Hosp2 --> Hosp3["1943 创伤停滞舱<br/>冷冻急救"]
+        Hosp3 --> Hosp4["1948 再生培养罐<br/>断肢再生"]
+        Hosp4 --> Hosp5["1953 意识备份终端<br/>灵魂回收"]
+    end
+
+    %% 通信 (Signal)
+    subgraph Sig [通信连]
+        direction TB
+        Sig1["1936 有线/无线电连"] --> Sig2["1939 加密通讯机<br/>防止截听"]
+        Sig2 --> Sig3["1942 数据链系统<br/>多兵种协同"]
+        Sig3 --> Sig4["1946 卫星通讯终端<br/>全球指挥"]
+        Sig4 --> Sig5["1951 神经元网络节点<br/>脑波直连"]
+    end
+
+    %% ==========================================
+    %% 3. 特色支援连队 (Mod Specific Flavor)
+    %% ==========================================
+
+    %% 文工团 (Cultural/Propaganda)
+    subgraph Culture [文工团]
+        direction TB
+        Cul1["1936 前线慰问团<br/>士气提升"] --> Cul2["1940 心理战广播车<br/>敌军降智"]
+        Cul2 --> Cul3["1944 全息偶像投影<br/>虚拟歌姬 精神控制"]
+        Cul3 --> Cul4["1949 潜意识植入广播<br/>洗脑 狂热"]
+        Cul4 --> Cul5["1955 模因病毒发射器<br/>认知修改"]
+    end
+
+    %% 性爱服务站 (Sexual Service / Energy Collection)
+    subgraph SexService [性爱服务站/能量收集]
+        direction TB
+        Sex1["1936 随军服务站<br/>资源回收 人力恢复"] --> Sex2["1939 移动红帐篷<br/>高效费洛蒙收集"]
+        Sex2 --> Sex3["1943 战地兴奋剂注射站<br/>组织度恢复 疯狂"]
+        Sex3 --> Sex4["1948 虚拟现实体验舱<br/>完美幻想 零损耗"]
+        Sex4 --> Sex5["1954 多巴胺直连网络<br/>群体高潮 绝对服从"]
+    end
+
+    %% ==========================================
+    %% 4. 运输与直升机 (Transport & Helis)
+    %% ==========================================
+
+    %% 铁路/列车 (Trains)
+    subgraph Trains [铁路与列车]
+        direction TB
+        Train1["1936 蒸汽/内燃列车"] --> Train2["1940 装甲列车<br/>防空 火炮支援"]
+        Train2 --> Train3["1945 高速铁路系统<br/>新干线原型"]
+        Train3 --> Train4["1952 磁悬浮物流列车<br/>超高速补给"]
+    end
+
+    %% 通用直升机 (General Helicopters)
+    subgraph HeliGen [通用运输直升机]
+        direction TB
+        Heli1["1942 早期旋翼机<br/>Flettner型"] --> Heli2["1946 通用直升机 Gen1<br/>休伊风格"]
+        Heli2 --> Heli3["1950 重型运输直升机<br/>支奴干风格"]
+        Heli3 --> Heli4["1955 倾转旋翼机<br/>鱼鹰风格"]
+    end
+
+    %% 攻击直升机 (Attack Helicopters)
+    subgraph HeliAtt [攻击直升机]
+        direction TB
+        AHeli1["1948 武装直升机原型<br/>挂载机枪火箭"] --> AHeli2["1952 专用攻击直升机<br/>眼镜蛇风格"]
+        AHeli2 --> AHeli3["1956 隐身攻击直升机<br/>科曼奇风格"]
+    end
+
+    %% ==========================================
+    %% 连接关系 (Links)
+    %% ==========================================
+    
+    SupEq --> Eng1
+    SupEq --> Rec1
+    SupEq --> MP1
+    SupEq --> Maint1
+    SupEq --> Log1
+    SupEq --> Hosp1
+    SupEq --> Sig1
+    SupEq --> Cul1
+    SupEq --> Sex1
+
+    %% 跨科技树需求示意 (需军用卡车)
+    Log1 -.-> TruckReq["需: 军用卡车"]
+    Hosp1 -.-> TruckReq
+    Cul1 -.-> TruckReq
+    Sex1 -.-> TruckReq
+    
+    %% 跨科技树需求示意 (需电子学)
+    Sig1 -.-> ElecReq["需: 战场通讯"]
+
+    %% 直升机衍生
+    Heli2 -.-> AHeli1

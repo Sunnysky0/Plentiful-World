@@ -1,0 +1,154 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_resource_corrected_girls"
+        texturefile = "gfx/interface/resources/corrected_girls.png"
+    }
+
+    spriteType = {
+        name = "GFX_building_correction_academy"
+        texturefile = "gfx/interface/buildings/correction_academy.png"
+    }
+    
+    spriteType = {
+        name = "GFX_building_love_liquid_refinery"
+        texturefile = "gfx/interface/buildings/love_liquid_refinery.png"
+    }
+
+    spriteType = {
+        name = "GFX_resources_strip"
+        texturefile = "gfx/interface/resources/resources_strip.dds"
+        noOfFrames = 8
+    }
+
+    spriteType = {
+        name = "GFX_missing_resources_strip"
+        texturefile = "gfx/interface/resources/resources_strip.dds"
+        noOfFrames = 8
+    }
+
+    spriteType = {
+        name = "GFX_buildings_strip"
+        texturefile = "gfx/interface/buildings/building_icon_strip.dds"
+        noOfFrames = 33
+    }
+
+	spriteType = {
+		name = "GFX_pw_lust_folder_tab"
+		texturefile = "gfx/interface/techtree/techtree_special_tab.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_pw_lust_item_frame"
+		texturefile = "gfx/interface/techtree/pw_lust_item_frame.png"
+	}
+	spriteType = {
+		name = "GFX_pw_lust_info_media_panel"
+		texturefile = "gfx/interface/techtree/pw_lust_info_media_panel.png"
+	}
+	spriteType = {
+		name = "GFX_pw_lust_info_stats_panel"
+		texturefile = "gfx/interface/techtree/pw_lust_info_stats_panel.png"
+	}
+	spriteType = {
+		name = "GFX_pw_lust_info_window_bg"
+		texturefile = "gfx/interface/techtree/pw_lust_info_window_bg.png"
+	}
+	spriteType = {
+		name = "GFX_technology_pw_lust_folder_unavailable_item_bg"
+		texturefile = "gfx/interface/techtree/pw_lust_item_frame.png"
+	}
+	spriteType = {
+		name = "GFX_technology_pw_lust_folder_available_item_bg"
+		texturefile = "gfx/interface/techtree/pw_lust_item_frame.png"
+	}
+	spriteType = {
+		name = "GFX_technology_pw_lust_folder_researched_item_bg"
+		texturefile = "gfx/interface/techtree/pw_lust_item_frame.png"
+	}
+	spriteType = {
+		name = "GFX_technology_pw_lust_folder_branch_item_bg"
+		texturefile = "gfx/interface/techtree/pw_lust_item_frame.png"
+	}
+	spriteType = {
+		name = "GFX_technology_pw_lust_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/pw_lust_item_frame.png"
+	}
+	spriteType = {
+		name = "GFX_technology_pw_lust_folder_small_unavailable_item_bg"
+		texturefile = "gfx/interface/techtree/pw_lust_item_frame.png"
+	}
+	spriteType = {
+		name = "GFX_technology_pw_lust_folder_small_available_item_bg"
+		texturefile = "gfx/interface/techtree/pw_lust_item_frame.png"
+	}
+	spriteType = {
+		name = "GFX_technology_pw_lust_folder_small_researched_item_bg"
+		texturefile = "gfx/interface/techtree/pw_lust_item_frame.png"
+	}
+	spriteType = {
+		name = "GFX_technology_pw_lust_folder_small_branch_item_bg"
+		texturefile = "gfx/interface/techtree/pw_lust_item_frame.png"
+	}
+	spriteType = {
+		name = "GFX_technology_pw_lust_folder_small_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/pw_lust_item_frame.png"
+	}
+
+	spriteType = {
+		name = "GFX_pw_tactic_girl_1_medium"
+		texturefile = "gfx/interface/technologies/pw_tactic_girl_1.png"
+	}
+	spriteType = {
+		name = "GFX_pw_milking_tech_1_medium"
+		texturefile = "gfx/interface/technologies/pw_milking_tech_1.png"
+	}
+	spriteType = {
+		name = "GFX_pw_sex_toy_tech_1_medium"
+		texturefile = "gfx/interface/technologies/pw_sex_toy_tech_1.png"
+	}
+	spriteType = {
+		name = "GFX_pw_futanarization_tech_1_medium"
+		texturefile = "gfx/interface/technologies/pw_futanarization_tech_1.png"
+	}
+
+	spriteType = {
+		name = "GFX_pw_tactic_girl_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/pw_tactic_girl_eq.png"
+	}
+	spriteType = {
+		name = "GFX_pw_tactic_girl_equipment_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/pw_tactic_girl_eq.png"
+	}
+	spriteType = {
+		name = "GFX_pw_tactic_girl_equipment_1"
+		texturefile = "gfx/interface/equipmentdesigner/pw_tactic_girl_eq.png"
+	}
+	spriteType = {
+		name = "GFX_pw_tactic_girl_equipment"
+		texturefile = "gfx/interface/equipmentdesigner/pw_tactic_girl_eq.png"
+	}
+	spriteType = {
+		name = "GFX_unit_pw_tactic_girl_equipment_icon_medium"
+		texturefile = "gfx/interface/equipmentdesigner/pw_tactic_girl_eq.png"
+	}
+	spriteType = {
+		name = "GFX_unit_pw_tactic_girl_equipment_icon_medium_white"
+		texturefile = "gfx/interface/equipmentdesigner/pw_tactic_girl_eq.png"
+	}
+	spriteType = {
+		name = "GFX_unit_pw_tactic_girl_equipment_1_icon_medium"
+		texturefile = "gfx/interface/equipmentdesigner/pw_tactic_girl_eq.png"
+	}
+	spriteType = {
+		name = "GFX_unit_pw_tactic_girl_equipment_1_icon_medium_white"
+		texturefile = "gfx/interface/equipmentdesigner/pw_tactic_girl_eq.png"
+	}
+	spriteType = {
+		name = "GFX_unit_pw_tactic_girl_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/pw_tactic_girl_eq.png"
+	}
+	spriteType = {
+		name = "GFX_unit_pw_tactic_girl_equipment_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/pw_tactic_girl_eq.png"
+	}
+}

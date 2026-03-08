@@ -36,6 +36,8 @@ state={
 			        level = 1
 			    }
 			}
+			correction_academy = 1
+			love_liquid_refinery = 1
 
 		}
 		add_core_of = ENG

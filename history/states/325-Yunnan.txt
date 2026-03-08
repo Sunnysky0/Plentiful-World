@@ -27,6 +27,8 @@ state={
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 3
+			correction_academy = 1
+			love_liquid_refinery = 1
 
 		}
 		1938.10.25 = {

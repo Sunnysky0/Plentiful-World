@@ -1,0 +1,17 @@
+graph TD
+    %% Naval Support Tech Tree
+    
+    subgraph Fire_Control [火控系统]
+        FC1(宙斯盾基线X<br>多目标拦截) --> FC2(AI辅助火控<br>预判弹道)
+        FC2 --> FC3(量子火控雷达<br>无视干扰)
+    end
+    
+    subgraph Power_System [动力系统]
+        Eng1(综合全电推进<br>IEP) --> Eng2(小型化核聚变堆<br>无限续航)
+        Eng2 --> Eng3(反物质催化引擎<br>亚光速)
+    end
+    
+    subgraph Defense [防御系统]
+        Def1(近防激光炮<br>CIWS Laser) --> Def2(电磁装甲<br>主动防御)
+        Def2 --> Def3(能量护盾<br>偏转力场)
+    end

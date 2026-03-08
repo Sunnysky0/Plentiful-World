@@ -25,6 +25,7 @@ state = {
 				naval_base = 3
 				coastal_bunker = 1
 			}
+			correction_academy = 1
 		}
 	}
 

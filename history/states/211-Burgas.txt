@@ -34,6 +34,7 @@ state={
 			9902 = {
 				naval_base = 1
 			}
+			correction_academy = 1
 		}
 		add_core_of = BUL
 	}

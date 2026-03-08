@@ -1,0 +1,229 @@
+technologies = {
+	@1918 = 0
+	@1936 = 3
+	@1939 = 7
+	@1940 = 9
+	@1942 = 13
+	@1943 = 15
+	@1946 = 20
+	@1948 = 24
+	@1951 = 29
+
+	pw_infantry_weapons0 = {
+		enable_equipments = {
+			infantry_equipment_0
+		}
+		enable_subunits = {
+			infantry
+		}
+		path = {
+			leads_to_tech = pw_infantry_weapons1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.2
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1918 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pw_infantry_weapons1 = {
+		enable_equipments = {
+			infantry_equipment_1
+		}
+		path = {
+			leads_to_tech = pw_infantry_weapons2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1936 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	pw_infantry_weapons2 = {
+		enable_equipments = {
+			infantry_equipment_2
+		}
+		path = {
+			leads_to_tech = pw_infantry_weapons3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pw_support_weapons1
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1939 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	pw_infantry_weapons3 = {
+		enable_equipments = {
+			infantry_equipment_3
+		}
+		path = {
+			leads_to_tech = pw_infantry_weapons4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pw_support_weapons2
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1942 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	pw_infantry_weapons4 = {
+		enable_equipments = {
+			infantry_equipment_4
+		}
+		path = {
+			leads_to_tech = pw_infantry_weapons5
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pw_support_weapons3
+			research_cost_coeff = 1
+		}
+		research_cost = 3
+		start_year = 1946
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1946 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pw_infantry_weapons5 = {
+		enable_equipments = {
+			infantry_equipment_5
+		}
+		dependencies = {
+			pw_infantry_weapons4 = 1
+		}
+		research_cost = 4
+		start_year = 1951
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1951 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pw_support_weapons1 = {
+		category_all_infantry = {
+			default_morale = 0.02
+			soft_attack = 0.03
+		}
+		path = {
+			leads_to_tech = pw_support_weapons2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1940 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pw_support_weapons2 = {
+		category_all_infantry = {
+			hard_attack = 0.1
+		}
+		category_light_infantry = {
+			ap_attack = 0.6
+		}
+		path = {
+			leads_to_tech = pw_support_weapons3
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1943 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pw_support_weapons3 = {
+		category_all_infantry = {
+			max_organisation = 1
+			hard_attack = 0.12
+		}
+		org_loss_when_moving = -0.05
+		dependencies = {
+			pw_infantry_weapons4 = 1
+			pw_support_weapons2 = 1
+		}
+		research_cost = 3
+		start_year = 1948
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1948 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

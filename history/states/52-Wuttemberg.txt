@@ -26,6 +26,7 @@ state = {
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 6
+			correction_academy = 1
 		}
 
 		1939.1.1 = {

@@ -21,6 +21,7 @@ state = {
 				coastal_bunker = 1
 				bunker = 1
 			}
+			correction_academy = 1
 		}
 		
 		victory_points = {

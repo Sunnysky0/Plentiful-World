@@ -39,6 +39,8 @@ state = {
 				}
 			}
 			air_base = 3
+			correction_academy = 1
+			love_liquid_refinery = 1
 		}
 		
 		1939.1.1 = {

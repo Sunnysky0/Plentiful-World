@@ -25,6 +25,7 @@ state = {
 				coastal_bunker = 5
 
 			}
+			correction_academy = 1
 
 		}
 		add_core_of = SWE

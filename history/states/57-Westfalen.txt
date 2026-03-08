@@ -27,6 +27,8 @@ state = {
 
 			# Möhne Reservoir
 			11431 = { dam = 1 }
+			correction_academy = 1
+			love_liquid_refinery = 1
 
 		}
 

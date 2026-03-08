@@ -23,6 +23,7 @@ state = {
 				naval_base = 5
 			}
 			air_base = 6
+			correction_academy = 1
 		}
 		
 		1939.1.1 = {

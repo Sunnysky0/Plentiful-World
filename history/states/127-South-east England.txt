@@ -41,6 +41,8 @@ state = {
 				# HM Dockyard, Chatham
 				naval_facility = 1
 			}
+			correction_academy = 1
+			love_liquid_refinery = 1
 		}
 		
 		1939.1.1 = {

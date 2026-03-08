@@ -18,6 +18,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+			correction_academy = 1
 		}
 		add_core_of = ROM
 		add_core_of = TRA

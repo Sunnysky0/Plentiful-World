@@ -41,6 +41,8 @@ state = {
             3499 = {
                 land_facility = 1 #Representing Kommersdorf's Research Facilities
             }
+			correction_academy = 1
+			love_liquid_refinery = 1
 		}
 
 		1939.1.1 = {

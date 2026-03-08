@@ -29,6 +29,8 @@ state= {
 			6384 = {
 				naval_base = 5
 			}
+			correction_academy = 1
+			love_liquid_refinery = 1
 		}
 		add_core_of = ENG
 		1939.1.1 = {

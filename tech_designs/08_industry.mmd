@@ -1,0 +1,110 @@
+graph TD
+    %% Industry Tech Tree - Plentiful World Mod
+    %% Theme: 1936-1956 Game Timeline, 2026-2046 Tech Ceiling
+
+    %% ==========================================
+    %% 1. 生产线技术 (Production Line)
+    %% ==========================================
+
+    subgraph Production_Auto [生产线 自动化方向]
+        direction TB
+        ProdA1["1936 基础生产线工具 I<br/>标准化工位 产能稳定"] --> ProdA2["1940 改进型生产线工具 II<br/>电动传送 自动分拣"]
+        ProdA2 --> ProdA3["1944 先进生产线工具 III<br/>数控机床 快速换模"]
+        ProdA3 --> ProdA4["1949 现代生产线工具 IV<br/>柔性制造 单元重构"]
+        ProdA4 --> ProdA5["1954 实验型生产线工具 V<br/>黑灯工厂 无人值守"]
+    end
+
+    subgraph Production_Smart [生产线 智能化方向]
+        direction TB
+        ProdS1["1938 工业统计管理<br/>节拍优化 损耗降低"] --> ProdS2["1942 机电协同控制<br/>设备互联 质量追踪"]
+        ProdS2 --> ProdS3["1946 工业专家系统<br/>故障预测 自动排程"]
+        ProdS3 --> ProdS4["1951 工业弱AI调度<br/>多厂协同 动态分配"]
+        ProdS4 --> ProdS5["1956 工业神经网络<br/>全局优化 自主调参"]
+    end
+
+    %% ==========================================
+    %% 2. 建筑技术 (Construction)
+    %% ==========================================
+
+    subgraph Construction [建筑技术]
+        direction TB
+        Bld1["1936 基础建筑工具 I<br/>钢筋混凝土标准化"] --> Bld2["1940 改进型建筑工具 II<br/>预制构件 快速施工"]
+        Bld2 --> Bld3["1944 先进建筑工具 III<br/>模块化厂房 抗震结构"]
+        Bld3 --> Bld4["1949 现代建筑工具 IV<br/>自动施工机群 无人吊装"]
+        Bld4 --> Bld5["1954 实验型建筑工具 V<br/>3D打印建筑群 极速基建"]
+
+        CorB1["1939 矫正学院工程规范 I<br/>解锁: correction_academy"] --> CorB2["1945 矫正学院工程规范 II<br/>维护成本降低 资源效率+"]
+        CorB2 --> CorB3["1952 矫正学院综合系统 III<br/>稳定产出 抗破坏+"]
+    end
+
+    %% ==========================================
+    %% 3. 开采技术 (Extraction)
+    %% ==========================================
+
+    subgraph Extraction [开采技术]
+        direction TB
+        Ext1["1936 基础资源开采 I<br/>地表矿井 机械钻采"] --> Ext2["1940 改进型资源开采 II<br/>深井泵站 通风升级"]
+        Ext2 --> Ext3["1944 先进资源开采 III<br/>海上平台 稀有矿提纯"]
+        Ext3 --> Ext4["1949 现代资源开采 IV<br/>自动采矿车队 连续作业"]
+        Ext4 --> Ext5["1954 实验型资源开采 V<br/>超深层地热 联产供能"]
+
+        DesireMine1["1938 结晶采集工艺 I<br/>共鸣收集器 产率+"] --> DesireMine2["1943 结晶富集工艺 II<br/>纯度提升 副产控制"]
+        DesireMine2 --> DesireMine3["1948 结晶精炼工艺 III<br/>高纯燃料原液 稳定输出"]
+    end
+
+    %% ==========================================
+    %% 4. 燃油处理 (Fuel Processing)
+    %% ==========================================
+
+    subgraph Fuel_Vanilla [合成燃油技术 原版路线]
+        direction TB
+        Syn1["1936 基础合成炼油 I<br/>煤制油 橡胶副产"] --> Syn2["1940 改进型合成炼油 II<br/>催化裂化 转化率+"]
+        Syn2 --> Syn3["1944 先进合成炼油 III<br/>高压加氢 低能耗"]
+        Syn3 --> Syn4["1949 现代合成炼油 IV<br/>连续化精炼 副产优化"]
+        Syn4 --> Syn5["1954 实验型合成炼油 V<br/>智能化流程 实时调参"]
+    end
+
+    subgraph Fuel_LoveLiquid [爱液精炼厂技术 特色路线]
+        direction TB
+        Love1["1936 爱液精炼工艺 I<br/>解锁: love_liquid_refinery"] --> Love2["1940 爱液催化工艺 II<br/>燃油产出+ 橡胶产出+"]
+        Love2 --> Love3["1944 爱液裂解工艺 III<br/>费洛蒙裂解 高能燃料"]
+        Love3 --> Love4["1949 爱液协同精炼 IV<br/>与合成炼油联动 增益叠加"]
+        Love4 --> Love5["1954 爱液闭环处理 V<br/>清洁排放 持续高产"]
+    end
+
+    %% ==========================================
+    %% 5. 工业管理与供能 (Industrial Control)
+    %% ==========================================
+
+    subgraph Industrial_Control [工业管理与供能]
+        direction TB
+        Ctrl1["1936 战时工业管理 I<br/>定额制度 产线稳定"] --> Ctrl2["1941 战时工业管理 II<br/>优先级排产 紧急调拨"]
+        Ctrl2 --> Ctrl3["1946 战时工业管理 III<br/>跨区联供 物流联动"]
+        Ctrl3 --> Ctrl4["1951 智能工业管制 IV<br/>动态负载 峰谷调节"]
+
+        Energy1["1937 结晶燃油并网 I<br/>军工供能保障"] --> Energy2["1942 结晶燃油并网 II<br/>双回路冗余 断供保护"]
+        Energy2 --> Energy3["1948 结晶燃油并网 III<br/>高压直流 输配效率+"]
+        Energy3 --> Energy4["1954 结晶电网协调 IV<br/>全域调峰 综合能控"]
+    end
+
+    %% ==========================================
+    %% 连接关系 (Links)
+    %% ==========================================
+
+    ProdA1 --> Bld1
+    ProdA2 --> Ext2
+    ProdS2 --> Ctrl2
+
+    Ext2 -.-> Syn2
+    DesireMine1 -.-> Love1
+    DesireMine3 -.-> Love3
+
+    Syn2 -.-> Love2
+    Syn3 -.-> Love4
+
+    Love2 --> Energy2
+    Syn3 --> Energy3
+
+    Ctrl2 -.-> Production_Smart
+    Ctrl3 -.-> Fuel_Vanilla
+    Ctrl3 -.-> Fuel_LoveLiquid

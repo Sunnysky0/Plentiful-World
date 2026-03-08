@@ -1,0 +1,28 @@
+graph LR
+    %% Air Tech Tree - Plentiful World Mod
+    
+    subgraph Fighter [战斗机]
+        Fig1(第五代隐身战机<br>F-35/J-20改) --> Fig2(第六代战机<br>忠诚僚机/激光)
+        Fig2 --> Fig3(高超音速截击机<br>6马赫+)
+        Fig3 --> Fig4(空天战斗机<br>大气层外作战)
+    end
+
+    subgraph CAS [近距支援]
+        CAS1(隐身攻击机) --> CAS2(无人攻击蜂群)
+        CAS2 --> CAS3(浮游炮阵列)
+    end
+
+    subgraph Bomber [轰炸机]
+        Bom1(飞翼隐身轰炸机<br>B-21改) --> Bom2(亚轨道轰炸机<br>一小时全球打击)
+        Bom2 --> Bom3(天基动能武器平台<br>上帝之杖)
+    end
+
+    subgraph Transport [运输机]
+        Tra1(重型喷气运输机) --> Tra2(倾转旋翼巨型机)
+        Tra2 --> Tra3(反重力运输艇)
+    end
+    
+    subgraph Special [特种飞行器]
+        Spe1(预警指挥机<br>AWACS) --> Spe2(电子战飞机<br>全频段阻塞)
+        Spe2 --> Spe3(空中航母前哨站)
+    end

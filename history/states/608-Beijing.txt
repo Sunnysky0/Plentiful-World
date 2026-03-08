@@ -39,6 +39,7 @@ state={
 			10068 = {
 				naval_base = 2
 			}
+			correction_academy = 1
 		}
 
 		victory_points = {

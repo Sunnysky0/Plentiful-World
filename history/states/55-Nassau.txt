@@ -24,6 +24,7 @@ state = {
 
 			# Edersee Dam
 			11533 = { dam = 1 }
+			correction_academy = 1
 
 		}
 

@@ -22,6 +22,8 @@ state={
 			infrastructure = 4
 			industrial_complex = 4
 			air_base = 5
+			correction_academy = 1
+			love_liquid_refinery = 1
 
 		}
 		add_core_of = CZE

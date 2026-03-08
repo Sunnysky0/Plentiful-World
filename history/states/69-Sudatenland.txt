@@ -50,6 +50,7 @@ state = {
 			11432 = {
 				bunker = 1
 			}
+			correction_academy = 1
 
 		}
 

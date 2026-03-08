@@ -20,6 +20,8 @@ state={
 			3379 = {
 				naval_base = 4
 			}
+			correction_academy = 1
+			love_liquid_refinery = 1
 		}
 		add_core_of = ENG
 		add_core_of = IRE

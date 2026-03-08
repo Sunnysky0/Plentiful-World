@@ -42,6 +42,8 @@ state = {
 			5007 = {
 				bunker = 2
 			}
+			correction_academy = 1
+			love_liquid_refinery = 1
 
 		}
 

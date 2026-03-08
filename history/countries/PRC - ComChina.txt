@@ -39,13 +39,10 @@ add_ideas = {
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	tech_trucks = 1
-	militia_tech = 1
-	gw_artillery = 1
+    pw_infantry_weapons0 = 1
+    pw_infantry_weapons1 = 1
 }
 
-set_grand_doctrine = mass_assault
 
 
 set_stability = 0.43
@@ -486,33 +483,10 @@ add_opinion_modifier = { target = CHI modifier = hostile_status }
 	}
 	
 	set_technology = {
-		tech_mountaineers = 1
-		#doctrines
-		#air_superiority = 1
+    pw_infantry_weapons0 = 1
+    pw_infantry_weapons1 = 1
+}
 
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		fuel_refining = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		concentrated_industry = 1
-		concentrated_industry2 = 1
-		concentrated_industry3 = 1
-	}
-
-set_grand_doctrine = mass_assault
 set_sub_doctrine = peoples_war
 add_mastery = {
     amount = 125
@@ -522,3 +496,10 @@ add_mastery = {
 
 
 }
+
+
+
+
+
+
+

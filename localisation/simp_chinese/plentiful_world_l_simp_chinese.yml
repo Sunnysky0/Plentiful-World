@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ corrected_girls:0 "矫正少女"
+ corrected_girls_desc:0 "经过严格矫正训练，成为新秩序下生产力的年轻女性。"
+ 
+ correction_academy:0 "调教学院"
+ correction_academy_desc:0 "专门用于再教育和训练矫正少女的设施。"
+ 
+ love_liquid_refinery:0 "爱液精炼厂"
+ love_liquid_refinery_desc:0 "从生物来源提取强效燃料和材料的高级加工厂。"
+ 
+ modifier_production_speed_correction_academy_factor:0 "调教学院建设速度"
+ modifier_production_speed_love_liquid_refinery_factor:0 "爱液精炼厂建设速度"

@@ -15,6 +15,7 @@ state={
 			infrastructure = 2 #was: 3 was: 5
 			industrial_complex = 1 #was 2
 			arms_factory = 1 #was 2
+			correction_academy = 1
 		}
 		1939.1.1 = {
 			buildings = {

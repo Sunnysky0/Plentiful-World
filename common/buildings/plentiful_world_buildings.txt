@@ -1,0 +1,28 @@
+buildings = {
+    correction_academy = {
+        base_cost = 8000
+        icon_frame = 32
+        infrastructure_construction_effect = yes
+        damage_factor = 0.1
+        local_resources_corrected_girls = 4
+        level_cap = {
+            state_max = 5
+            shares_slots = yes
+        }
+        value = 1
+    }
+    
+    love_liquid_refinery = {
+        base_cost = 12000
+        icon_frame = 33
+        infrastructure_construction_effect = yes
+        damage_factor = 0.1
+        local_resources_oil = 6
+        local_resources_rubber = 8
+        level_cap = {
+            state_max = 3
+            shares_slots = yes
+        }
+        value = 1
+    }
+}

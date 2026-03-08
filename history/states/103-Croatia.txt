@@ -26,6 +26,8 @@ state={
 			6889 = {
 				naval_base = 1
 			}
+			correction_academy = 1
+			love_liquid_refinery = 1
 		}
 		add_core_of = YUG
 		#add_claim_by = ITA #added by focus

@@ -31,7 +31,8 @@ IF = {
 }
 
 set_technology = {
-	infantry_weapons = 1
+    pw_infantry_weapons0 = 1
+    pw_infantry_weapons1 = 1
 }
 
 if = {
@@ -136,24 +137,10 @@ if = {
 	oob = "YUN_1939"
 
 	set_technology = {
+    pw_infantry_weapons0 = 1
+    pw_infantry_weapons1 = 1
+}
 
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-
-set_grand_doctrine = mass_assault
 
 	complete_special_project = {
 		project = sp:sp_air_radar
@@ -170,3 +157,10 @@ set_popularities = {
 	fascism = 20
 	neutrality = 80
 }
+
+
+
+
+
+
+

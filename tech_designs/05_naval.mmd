@@ -1,0 +1,24 @@
+graph LR
+    %% Naval Tech Tree - Plentiful World Mod
+    
+    subgraph Screen_Ships [护卫舰/驱逐舰]
+        DD1(隐身导弹驱逐舰<br>DDG-1000风格) --> DD2(电磁炮驱逐舰<br>全电推进)
+        DD2 --> DD3(潜水驱逐舰<br>半潜式武库舰)
+    end
+
+    subgraph Capital_Ships [巡洋舰/战列舰]
+        BB1(导弹巡洋舰<br>基洛夫级现代版) --> BB2(武库舰<br>500+垂发单元)
+        BB2 --> BB3(轨道炮战列舰<br>复古巨炮主义回归)
+        BB3 --> BB4(反重力空中战舰<br>飞空艇)
+    end
+
+    subgraph Carriers [航空母舰]
+        CV1(电磁弹射核动力航母<br>福特级+) --> CV2(无人机母舰<br>蜂群控制中心)
+        CV2 --> CV3(潜水航母<br>水下突袭)
+        CV3 --> CV4(空中航母<br>神盾局风格)
+    end
+
+    subgraph Submarines [潜艇]
+        SS1(AIP静音潜艇) --> SS2(高超音速潜艇<br>超空泡技术)
+        SS2 --> SS3(深海猎手<br>深海无人潜航器)
+    end

@@ -42,6 +42,8 @@ state = {
 			374 = { # Cuxhaven
 				naval_base = 1
 			}
+			correction_academy = 1
+			love_liquid_refinery = 1
 		}
 
 		1939.1.1 = {

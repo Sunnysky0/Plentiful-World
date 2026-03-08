@@ -35,6 +35,8 @@ state = {
                     }
                 }
             }
+			correction_academy = 1
+			love_liquid_refinery = 1
 		}
 		
 		1938.3.12 = {

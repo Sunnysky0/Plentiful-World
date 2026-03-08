@@ -25,6 +25,8 @@ state={
 			351 = {
 				naval_base = 6
 			}
+			correction_academy = 1
+			love_liquid_refinery = 1
 		}
 		1939.1.1 = {
 			buildings = {

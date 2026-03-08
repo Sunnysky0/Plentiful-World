@@ -23,6 +23,7 @@ state = {
                     }
                 }
 			}
+			correction_academy = 1
 		}
 
 		victory_points = {

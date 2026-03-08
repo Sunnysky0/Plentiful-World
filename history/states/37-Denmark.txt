@@ -25,6 +25,8 @@ state = {
 				naval_base = 8
 
 			}
+			correction_academy = 1
+			love_liquid_refinery = 1
 		}
 		1939.1.1 = {
 			buildings = {

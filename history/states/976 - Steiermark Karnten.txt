@@ -19,6 +19,7 @@ state = {
 		buildings = {
 			infrastructure = 3 
 			industrial_complex = 2
+			correction_academy = 1
 		}
 
 		victory_points = {
