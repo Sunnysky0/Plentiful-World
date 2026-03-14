@@ -6,7 +6,8 @@ state={
 	name="STATE_545"
 
 	history={
-		owner = ENG
+		owner = BAF
+		add_core_of = BAF
 		buildings = {
 			infrastructure = 2
 

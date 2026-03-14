@@ -1,0 +1,141 @@
+	### FACTION ASSETS ###
+
+spriteTypes = {
+
+	#########################
+	##### Faction Icons #####
+	#########################
+
+	spriteType = {
+		name = "GFX_faction_icon_rotfront"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_third_internationale.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_solar_league"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_solar_league.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_birkeneid"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_birkeneid.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_russian_empire"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_russian_empire.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_intermarium"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_intermarium.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_geacps"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_geacps.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_entente"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_entente.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_ottoman_empire"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_ottoman_empire.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_league_of_america"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_league_of_america.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_united_guomindang"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_united_guomindang.dds"
+		noOfFrames = 2
+	}
+
+	#Generic Factions
+	spriteType = {
+		name = "GFX_faction_icon_generic_centrist"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_generic_centrist.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_generic_socialist"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_generic_socialist.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_generic_reactionary"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_generic_reactionary.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_faction_icon_generic_futurist"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_generic_futurist.dds"
+		noOfFrames = 2
+	}
+
+	### Faction Icons - Miniatures ###
+	spriteType = {
+		name = "GFX_faction_icon_solar_league_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_solar_league_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_rotfront_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_third_internationale_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_birkeneid_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_birkeneid_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_russian_empire_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_russian_empire_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_intermarium_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_intermarium_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_geacps_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_geacps_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_entente_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_entente_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_ottoman_empire_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_ottoman_empire_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_league_of_america_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_league_of_america_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_united_guomindang_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_united_guomindang_miniature.dds"
+	}
+	
+	# Generic Factions
+	spriteType = {
+		name = "GFX_faction_icon_generic_centrist_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_generic_centrist_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_generic_socialist_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_generic_socialist_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_generic_reactionary_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_generic_reactionary_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_generic_futurist_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_icon_generic_futurist_miniature.dds"
+	}
+}

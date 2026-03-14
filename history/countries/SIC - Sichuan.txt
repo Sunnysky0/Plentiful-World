@@ -125,9 +125,9 @@ if = {
 #	}
 #	
 #	set_technology = {
-    pw_infantry_weapons0 = 1
-    pw_infantry_weapons1 = 1
-}
+#		pw_infantry_weapons0 = 1
+#		pw_infantry_weapons1 = 1
+#	}
 #
 #set_grand_doctrine = mass_assault
 #set_grand_doctrine = new_fleet_in_being

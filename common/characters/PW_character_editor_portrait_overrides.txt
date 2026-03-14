@@ -1,0 +1,21 @@
+characters = {
+
+	CHI_yuan_shikai = {
+		name=CHI_yuan_shikai
+		portraits = {
+			civilian = {
+				small = GFX_PW_portrait_CHI_yuan_shikai
+				large = GFX_PW_portrait_CHI_yuan_shikai
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ dictator political_genius faction_management }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	
+	
+	}
+
+}

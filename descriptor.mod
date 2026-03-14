@@ -32,3 +32,4 @@ replace_path = "common/scripted_triggers" # 清空脚本触发器
 # --- 额外清理以防止崩溃 ---
 replace_path = "common/military_industrial_organization" # 清空原版 MIO，防止引用不存在的顾问导致崩溃
 replace_path = "common/technologies" # 清空原版全部科技，为新科技体系提供白板
+replace_path = "gfx/loadingscreens" # 完全覆盖原版/ DLC 加载背景图

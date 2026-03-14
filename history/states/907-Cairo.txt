@@ -5,7 +5,8 @@ state={
 	state_category=town
 
 	history={
-		owner = ENG
+		owner = BAF
+		add_core_of = BAF
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

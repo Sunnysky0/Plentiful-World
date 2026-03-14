@@ -1,0 +1,128 @@
+spriteTypes = {
+	### This file serves to add unique technology icons to nations.
+	### As is standard practice, please make comments as for what tag the corresponding section is for.
+	
+	########
+	### DAI
+	########
+	spriteType = {
+		name = "GFX_DAI_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_inf_eq_0.tga"
+	}
+	spriteType = {
+		name = "GFX_DAI_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_inf_eq_1.png"
+	}
+	spriteType = {
+		name = "GFX_DAI_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_inf_eq_2.png"
+	}
+	spriteType = {
+		name = "GFX_DAI_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_inf_eq_3.png"
+	}
+	spriteType = {
+		name = "GFX_DAI_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_motorised_infantry.png"
+	}
+	spriteType = {
+		name = "GFX_DAI_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_motorized_equipment_1.png"
+	}
+	spriteType = {
+		name = "GFX_DAI_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_motorized_equipment_1.png"
+	}
+	spriteType = {
+		name = "GFX_DAI_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_motorized_equipment_1.png"
+	}
+	spriteType = {
+		name = "GFX_DAI_gwtank_medium"
+		textureFile = "gfx/interface/technologies/DAI/DAI_basic_light_tank.png"
+	}
+	spriteType = {
+		name = "GFX_DAI_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_art1.png"
+	}
+	spriteType = {
+		name = "GFX_DAI_artillery1_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_art2.png"
+	}
+	spriteType = {
+		name = "GFX_DAI_motorized_rocket_unit_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_mot_art.png"
+	}
+	SpriteType = {
+		name = "GFX_DAI_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_armored_car_equipment_1.dds"
+	}
+	########
+	### SMC
+	########
+	spriteType = {
+		name = "GFX_SMC_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_inf_eq_0.tga"
+	}
+	spriteType = {
+		name = "GFX_SMC_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_inf_eq_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMC_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SMC/SMC_inf_eq_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMC_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SMC/SMC_inf_eq_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMC_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_motorised_infantry.png"
+	}
+	spriteType = {
+		name = "GFX_SMC_mechanised_infantry_medium"
+		textureFile = "gfx/interface/technologies/SMC/SMC_mech_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMC_mechanised_infantry2_medium"
+		textureFile = "gfx/interface/technologies/SMC/SMC_mech_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMC_mechanised_infantry3_medium"
+		textureFile = "gfx/interface/technologies/SMC/SMC_mech_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMC_gwtank_medium"
+		textureFile = "gfx/interface/technologies/DAI/DAI_basic_light_tank.png"
+	}
+	spriteType = {
+		name = "GFX_SMC_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_art1.png"
+	}
+	spriteType = {
+		name = "GFX_SMC_artillery1_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_art2.png"
+	}
+	spriteType = {
+		name = "GFX_SMC_motorized_rocket_unit_medium"
+		texturefile = "gfx/interface/technologies/DAI/DAI_mot_art.png"
+	}
+	SpriteType = {
+		name = "GFX_SMC_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/SMC/SMC_armored_car_equipment_1.dds"
+	}
+
+	########
+	### MRS
+	########
+	spriteType = {
+		name = "GFX_MRS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_0.dds"
+	}
+	spriteType = {
+		name = "GFX_MRS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/MRS/MRS_inf_eq_1.tga"
+	}
+
+}

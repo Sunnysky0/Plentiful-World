@@ -308,16 +308,16 @@ bitmapfonts = {
 	
 	bitmapfont_override = {
 		name = "tahoma_60"
-		fontfiles = { 
+		fontfiles = {
 			"gfx/fonts/hoi_mapfont4"
-			"gfx/fonts/mapfont_chn_0"
-			"gfx/fonts/mapfont_chn_1"	
-			"gfx/fonts/mapfont_chn_2"	
-			"gfx/fonts/mapfont_chn_3"
-			"gfx/fonts/mapfont_chn_4"	
-			"gfx/fonts/mapfont_chn_5"	
-			"gfx/fonts/mapfont_chn_6"	
-			"gfx/fonts/mapfont_chn_7"	
+			"gfx/fonts/52ChineseFont/mapfont_chn_0"
+			"gfx/fonts/52ChineseFont/mapfont_chn_1"	
+			"gfx/fonts/52ChineseFont/mapfont_chn_2"	
+			"gfx/fonts/52ChineseFont/mapfont_chn_3"
+			"gfx/fonts/52ChineseFont/mapfont_chn_4"	
+			"gfx/fonts/52ChineseFont/mapfont_chn_5"	
+			"gfx/fonts/52ChineseFont/mapfont_chn_6"	
+			"gfx/fonts/52ChineseFont/mapfont_chn_7"
 		}
 	languages = { "l_simp_chinese" } 
 	}
@@ -348,6 +348,30 @@ bitmapfonts = {
 			"gfx/fonts/Arial_14"					
 		}
 	languages = { "l_simp_chinese" } 
+	}
+	
+	bitmapfont = {
+		name = "FuturaLT"
+		path = "gfx/fonts/fzltxih_18"
+		color = 0xffffffff
+	}
+	
+	bitmapfont = {
+		name = "FuturaBT-Medium"
+		path = "gfx/fonts/lishu"
+		color = 0xffffffff
+	}
+	
+	bitmapfont = {
+		name = "FuturaBT"
+		path = "gfx/fonts/fzltch_24_I"
+		color = 0xffffffff
+	}
+	
+	bitmapfont = {
+		name = "dx"
+		path = "gfx/fonts/dx"
+		color = 0xffffffff
 	}
 	
 	}

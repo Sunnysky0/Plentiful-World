@@ -1,0 +1,72 @@
+capital = 16
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.1
+set_convoys = 300
+set_technology = {
+	pw_infantry_weapons0 = 1
+	pw_infantry_weapons1 = 1
+}
+
+create_faction = "PW_HOLY_ACCORD"
+add_to_faction = SPR
+add_to_faction = POR
+add_to_faction = BEL
+BEL = {
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_autonomy = {
+			target = COG
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.3
+		}
+		else = {
+			puppet = COG
+		}
+	}
+}
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 64
+	fascism = 1
+	neutrality = 15
+	communism = 20
+}
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SYR
+		autonomous_state = autonomy_colony
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = LEB
+		autonomous_state = autonomy_colony
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = FAF
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.4
+	}
+	else = {
+		puppet = SYR
+		puppet = LEB
+		puppet = FAF
+	}
+}

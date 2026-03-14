@@ -1,29 +1,115 @@
-﻿
 capital = 126
-oob = "ENG_1936"
-
-set_research_slots = 3
+set_research_slots = 4
+set_stability = 0.6
+set_war_support = 0.1
+set_convoys = 1000
 set_technology = {
-    pw_infantry_weapons0 = 1
-    pw_infantry_weapons1 = 1
+	pw_infantry_weapons0 = 1
+	pw_infantry_weapons1 = 1
 }
 
+create_faction = "PW_COMMONWEALTH"
+add_to_faction = MAL
+add_to_faction = RAJ
+add_to_faction = OMA
+add_to_faction = CAN
+add_to_faction = SAF
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = BRM
+add_to_faction = BAF
+add_to_faction = PAL
+add_to_faction = JOR
+add_to_faction = KUW
 set_politics = {
-    ruling_party = democratic
-    last_election = "1936.1.1"
-    election_frequency = 48
-    elections_allowed = yes
+	ruling_party = democratic
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes
 }
-
 set_popularities = {
-    democratic = 100
-    fascism = 0
-    communism = 0
-    neutrality = 0
+	democratic = 90
+	fascism = 3
+	communism = 2
+	neutrality = 5
 }
-
-
-
-
-
-
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = OMA
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = SAF
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = NZL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = BRM
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = BAF
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = PAL
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = JOR
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = KUW
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.5
+	}
+	else = {
+		puppet = MAL
+		puppet = RAJ
+		puppet = JOR
+		puppet = PAL
+		puppet = KUW
+		puppet = OMA
+		puppet = BAF
+		puppet = CAN
+		puppet = SAF
+		puppet = AST
+		puppet = NZL
+	}
+}

@@ -1,9 +1,0 @@
-technology_categories = {
-	pw_lust_tech
-}
-
-technology_folders = {
-	pw_lust_folder = {
-		ledger = civilian
-	}
-}

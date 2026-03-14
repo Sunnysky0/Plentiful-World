@@ -1,0 +1,112 @@
+guiTypes = {
+    containerWindowType = {
+		name = "totColVis"
+		position = { x = 341 y = 300 }
+		iconType ={
+			name = "coalitions_frame_icon"
+			spriteType = "GFX_coalitions_frame"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "synColVis"
+		position = { x = 341 y = 316 }
+		iconType ={
+			name = "coalitions_frame_icon"
+			spriteType = "GFX_coalitions_frame"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "radsocColVis"
+		position = { x = 341 y = 332 }
+		iconType ={
+			name = "coalitions_frame_icon"
+			spriteType = "GFX_coalitions_frame"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "socdemColVis"
+		position = { x = 341 y = 349 }
+		iconType ={
+			name = "coalitions_frame_icon"
+			spriteType = "GFX_coalitions_frame"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "soclibColVis"
+		position = { x = 341 y = 364 }
+		iconType ={
+			name = "coalitions_frame_icon"
+			spriteType = "GFX_coalitions_frame"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "marlibColVis"
+		position = { x = 341 y = 380 }
+		iconType ={
+			name = "coalitions_frame_icon"
+			spriteType = "GFX_coalitions_frame"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "socconColVis"
+		position = { x = 341 y = 396 }
+		iconType ={
+			name = "coalitions_frame_icon"
+			spriteType = "GFX_coalitions_frame"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "authdemColVis"
+		position = { x = 341 y = 411 }
+		iconType ={
+			name = "coalitions_frame_icon"
+			spriteType = "GFX_coalitions_frame"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "patautColVis"
+		position = { x = 341 y = 428 }
+		iconType ={
+			name = "coalitions_frame_icon"
+			spriteType = "GFX_coalitions_frame"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "natpopColVis"
+		position = { x = 341 y = 442 }
+		iconType ={
+			name = "coalitions_frame_icon"
+			spriteType = "GFX_coalitions_frame"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+}

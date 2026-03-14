@@ -1,0 +1,20 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_frontend_bg"
+		texturefile = "gfx/interface/mainmenu.png"
+		noOfFrames = 2
+		legacy_lazy_load = yes
+		animation_rate_fps = 0.15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+#	corneredTileSpriteType = {
+#		name = "GFX_frontend_bg"
+#		texturefile = "gfx/loadingscreens/mainmenu.dds"
+#		borderSize = { x=0 y=0 }
+#		size = { x=1920 y=1440 }
+#		tilingCenter = no
+#		effectFile = "gfx/FX/buttonstate.shader"
+#	}
+}

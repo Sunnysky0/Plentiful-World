@@ -1,0 +1,38 @@
+bitmapfonts = {
+	bitmapfont_override = {
+        name = "Kenyan_28"
+        fontfiles = { 
+            "gfx/fonts/hoi4_typewriter22"		
+			"gfx/fonts/hoi_22typewriter"
+			"gfx/fonts/52ChineseFont/Arial_20b"	
+        }
+        languages = { "l_simp_chinese"}	
+    }   
+	
+	bitmapfont_override = {
+        name = "Electro"
+        fontfiles = { 
+			"gfx/fonts/52ChineseFont/Arial_14b"	
+        }
+        languages = { "l_simp_chinese"}   
+       }
+
+    bitmapfont_override = {
+        name = "Electro_20"
+        fontfiles = {
+            "gfx/fonts/hoi4_typewriter22"		
+			"gfx/fonts/hoi_22typewriter"
+			"gfx/fonts/52ChineseFont/Arial_20b"	
+		}			
+        languages = { "l_simp_chinese"}
+    }
+
+    bitmapfont_override = { #没有使用
+        name = "TFRC_18"
+        fontfiles = { 
+            "gfx/fonts/chinese/TFRC_18"  
+        } 
+        languages = { "l_simp_chinese"}
+    }
+
+}

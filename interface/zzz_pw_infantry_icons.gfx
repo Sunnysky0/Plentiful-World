@@ -5,35 +5,27 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_pw_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/pw_modular_assault_rifle.png"
-	}
-	spriteType = {
-		name = "GFX_pw_infantry_weapons2_medium"
 		texturefile = "gfx/interface/technologies/pw_smart_tracking_rifle.png"
 	}
 	spriteType = {
-		name = "GFX_pw_infantry_weapons3_medium"
+		name = "GFX_pw_infantry_weapons2_medium"
 		texturefile = "gfx/interface/technologies/pw_portable_gauss_rifle.png"
 	}
 	spriteType = {
-		name = "GFX_pw_infantry_weapons4_medium"
+		name = "GFX_pw_infantry_weapons3_medium"
 		texturefile = "gfx/interface/technologies/pw_nextgen_gauss_rifle.png"
 	}
 	spriteType = {
-		name = "GFX_pw_infantry_weapons5_medium"
-		texturefile = "gfx/interface/technologies/pw_tracking_gauss_rifle.png"
-	}
-	spriteType = {
 		name = "GFX_pw_support_weapons1_medium"
-		texturefile = "gfx/interface/technologies/pw_cloudburst_launcher.png"
+		texturefile = "gfx/interface/technologies/support_eq_machine_gun.png"
 	}
 	spriteType = {
 		name = "GFX_pw_support_weapons2_medium"
-		texturefile = "gfx/interface/technologies/pw_micro_em_mortar.png"
+		texturefile = "gfx/interface/technologies/support_eq_fae.png"
 	}
 	spriteType = {
 		name = "GFX_pw_support_weapons3_medium"
-		texturefile = "gfx/interface/technologies/pw_pheromone_projector.png"
+		texturefile = "gfx/interface/technologies/support_eq_flame_thrower.png"
 	}
 	spriteType = {
 		name = "GFX_archetype_infantry_equipment_medium"
@@ -56,19 +48,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/pw_infantry_eq_4.png"
 	}
 	spriteType = {
-		name = "GFX_infantry_equipment_5_medium"
-		texturefile = "gfx/interface/equipmentdesigner/pw_infantry_eq_5.png"
+		name = "GFX_pw_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/pw_infantry_eq_1.png"
 	}
 	spriteType = {
-		name = "GFX_pw_cloudburst_launcher_equipment_medium"
-		texturefile = "gfx/interface/equipmentdesigner/pw_cloudburst_eq.png"
+		name = "GFX_pw_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/pw_infantry_eq_2.png"
 	}
 	spriteType = {
-		name = "GFX_pw_em_mortar_equipment_medium"
-		texturefile = "gfx/interface/equipmentdesigner/pw_em_mortar_eq.png"
+		name = "GFX_pw_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/pw_infantry_eq_3.png"
 	}
 	spriteType = {
-		name = "GFX_pw_pheromone_projector_equipment_medium"
-		texturefile = "gfx/interface/equipmentdesigner/pw_pheromone_eq.png"
+		name = "GFX_pw_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/pw_infantry_eq_4.png"
 	}
 }

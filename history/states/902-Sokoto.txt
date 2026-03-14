@@ -6,7 +6,9 @@ state = {
 
 	history = {
 
-		owner = ENG
+		owner = BAF
+		add_core_of = FAF
+		add_core_of = BAF
 		add_core_of = NGA
 		add_core_of = SOK
 

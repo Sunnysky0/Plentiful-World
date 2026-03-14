@@ -1,0 +1,158 @@
+bitmapfonts = {
+	bitmapfont_override = {
+		name = "mainmenu_font"
+		fontfiles = { 
+			"gfx/fonts/hoi_24header"		
+			"gfx/fonts/52ChineseFont/Arial_20s"	
+		}
+		languages = { "l_simp_chinese"}
+	}
+
+	bitmapfont_override = {
+		name = "VCR01_22_glow"
+		fontfiles = {
+			"gfx/fonts/hoi_22tech"		
+			"gfx/fonts/52ChineseFont/Arial_20"
+		}
+		languages = { "l_simp_chinese"}   
+	}
+
+	bitmapfont_override = {
+		name = "VCR01_24_glow"
+		fontfiles = {
+			"gfx/font/hoi_24header"		
+			"gfx/fonts/52ChineseFont/Arial_20s"	
+		}
+		languages = { "l_simp_chinese"}	  
+	}
+
+	bitmapfont_override = {
+		name = "VCR01_30_glow"
+		fontfiles = {
+			"gfx/fonts/hoi_30header"
+			"gfx/fonts/52ChineseFont/Arial_26s"	
+		}		
+		languages = { "l_simp_chinese"}   
+		
+	}
+
+	bitmapfont_override = {
+		name = "VCR01_32_glow"
+		fontfiles = {
+			"gfx/fonts/hoi_33"	
+			"gfx/fonts/52ChineseFont/Arial_26"		
+		}		      
+		languages = { "l_simp_chinese"}	
+	}
+
+	bitmapfont_override = {
+		name = "VCR01_36_glow"
+		fontfiles = {
+			"gfx/fonts/hoi_30header"
+			"gfx/fonts/52ChineseFont/Arial_26s"	
+		}		      
+		languages = { "l_simp_chinese"}	
+	}
+
+	bitmapfont_override = { #没找到引用和对应字体
+		name = "VCR01_72_WT_glow"
+		fontfiles = {
+			"gfx/fonts/chinese/VCRC01_72_WT_glow_0"
+			"gfx/fonts/chinese/VCRC01_72_WT_glow_1"
+			"gfx/fonts/chinese/VCRC01_72_WT_glow_2"
+			"gfx/fonts/chinese/VCRC01_72_WT_glow_3"
+			"gfx/fonts/chinese/VCRC01_72_WT_glow_4"
+			"gfx/fonts/chinese/VCRC01_72_WT_glow_5"
+			"gfx/fonts/chinese/VCRC01_72_WT_glow_6"
+		}		   
+		languages = { "l_simp_chinese"}	
+	}
+	
+	#VCR02
+	
+	bitmapfont_override = {
+		name = "VCR02_10"
+		fontfiles = {
+			"gfx/fonts/hoi_16mbs"
+			"gfx/fonts/hoi_16mbs_cryllic"
+			"gfx/fonts/52ChineseFont/Arial_14s"
+		}
+		languages = { "l_simp_chinese"}	
+	}
+	
+	bitmapfont_override = {
+		name = "VCR02_12"
+		fontfiles = {
+			"gfx/fonts/hoi_16mbs"
+			"gfx/fonts/hoi_16mbs_cryllic"
+			"gfx/fonts/52ChineseFont/Arial_14s"
+		}
+		languages = { "l_simp_chinese"}	
+	}
+	
+	bitmapfont_override = {
+		name = "VCR02_14"
+		fontfiles = {
+			"gfx/fonts/hoi_18mbs"
+			"gfx/fonts/hoi_18mbs_cryllic"
+			"gfx/fonts/52ChineseFont/Arial_16s"	
+		}
+		languages = { "l_simp_chinese"}	
+	}
+	
+	bitmapfont_override = {
+		name = "VCR02_16"
+		fontfiles = {
+			"gfx/fonts/hoi_18mbs"
+			"gfx/fonts/hoi_18mbs_cryllic"
+			"gfx/fonts/52ChineseFont/Arial_16s"	
+		}
+		languages = { "l_simp_chinese"}	
+	}
+	
+	bitmapfont_override = {
+		name = "VCR02_18"
+		fontfiles = {
+			"gfx/fonts/hoi4_typewriter22"		
+			"gfx/fonts/hoi_22typewriter"
+			"gfx/fonts/52ChineseFont/Arial_20"	
+		}
+		languages = { "l_simp_chinese"}	
+	}
+	
+	bitmapfont_override = {
+		name = "VCR02_20"
+		fontfiles = {
+			"gfx/fonts/hoi_36header"
+			"gfx/fonts/52ChineseFont/Arial_26s"	
+		}
+		languages = { "l_simp_chinese"}	
+	}
+	
+	bitmapfont_override = {
+		name = "VCR02_24"
+		fontfiles = {
+			"gfx/fonts/hoi_36header"
+			"gfx/fonts/52ChineseFont/Arial_26s"
+			}
+		languages = { "l_simp_chinese"}	
+	}
+	
+	bitmapfont_override = {
+		name = "VCR02_26"
+		fontfiles = {
+			"gfx/fonts/hoi_36header"
+			"gfx/fonts/52ChineseFont/Arial_26s"
+		}
+		languages = { "l_simp_chinese"}	
+	}
+	
+	bitmapfont_override = {
+		name = "VCR02_36"
+		fontfiles = {
+			"gfx/fonts/hoi_36header"
+			"gfx/fonts/52ChineseFont/Arial_26s"
+		}     
+		languages = { "l_simp_chinese"}	
+	}
+}

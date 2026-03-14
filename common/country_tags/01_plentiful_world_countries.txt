@@ -1,1 +1,3 @@
-CHI = "countries/CHI - China.txt"
+
+BAF = "countries/British Africa.txt"
+FAF = "countries/French Africa.txt"

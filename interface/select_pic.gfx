@@ -1,0 +1,14 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_bop_button"
+		size= { x=40 y=48 }
+		textureFile = "gfx/interface/bop/bop_button.png"
+		borderSize = { x=2 y=2 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		
+	}
+	spriteType = {
+		name = "GFX_bop_glow_effect"
+		textureFile = "gfx/interface/bop/bop_button.png"
+	}
+}

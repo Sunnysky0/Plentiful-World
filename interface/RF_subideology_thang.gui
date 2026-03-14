@@ -1,0 +1,79 @@
+guiTypes = {
+#	containerWindowType = {
+#		name = "subideology_baller"
+#		position = {
+#			x = 88
+#			y = 305
+#		}
+#		instantTextboxType = {
+#			name = "subideology_boom"
+#			position = { x = 9 y = 3 }
+#			font = "hoi_18mbs"
+#			text = "[GetRulingIdeologySubtype]"
+#			pdx_tooltip = "[GetRulingIdeologySubtype]"
+#			maxWidth = 155
+#			maxHeight = 20
+#			format = left
+#			alwaystransparent = yes
+#		}
+#	}
+	containerWindowType = {
+		name = "subideology_baller_diplo"
+		position = {
+			x = 254
+			y = 132
+		}
+		instantTextboxType = {
+			name = "subideology_boom_diplo"
+			position = { x = 9 y = 22 }
+			font = "hoi_16mbs"
+			text = "[GetRulingIdeologySubtype]"
+			pdx_tooltip = "[GetRulingIdeologySubtype]"
+			maxWidth = 155
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "Diplomacyori_Ideology"
+		position = {
+			x = 254
+			y = 132
+		}
+		instantTextboxType = {
+			name = "Ideology"
+			position = { x = 9 y = 22 }
+			font = "hoi_16mbs"
+			text = "[GetoriSubIdeology]"
+			pdx_tooltip = "[GetoriSubIdeology]"
+			maxWidth = 155
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			#alwaystransparent = yes
+		}
+	}
+	#political
+	containerWindowType = {
+		name = "ori_subideology"
+		position = {
+			x = 254
+			y = 132
+		}
+		instantTextboxType = {
+			name = "Ideology"
+			position = { x = -157 y = 195 }
+			font = "hoi_16mbs"
+			text = "[GetoriSubIdeology]"
+			pdx_tooltip = "[GetoriSubIdeology]"
+			maxWidth = 155
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			#alwaystransparent = yes
+		}
+	}
+
+} 

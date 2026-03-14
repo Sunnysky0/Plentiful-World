@@ -7,7 +7,7 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300	
-		size = { width=770 height=100%% }
+		size = { width=900 height=100%% }
 		clipping = no #TODO SEA remove it. Added for displaying coal
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
@@ -38,7 +38,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "trade_back"
-			size = { width = 741 height = 400 }
+			size = { width = 860 height = 400 }
 			position = { x = 8 y = 43 }
 
 			background = {
@@ -109,9 +109,9 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "resources"
-			position = { x = 113 y = 115 }	
-			size = { width = 632 height = 207 }
-			clipping = yes
+			position = { x = 11 y = 115 }	
+			size = { width = 855 height = 210 }
+			verticalScrollbar = "right_vertical_slider"
 
 			background = {
 				name ="resources_bg"
@@ -120,7 +120,7 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "resources_grid"
-				position = { x = 0 y = 0 }
+				position = { x = 101 y = 0 }
 				size = { width = 632 height = 100%% }
 				slotsize = { width = 79 height = 156 }
 				max_slots = { x = 8 y = 1 }
@@ -250,23 +250,23 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "filters"
-			position = { x = 113 y = 65 }	
+			position = { x = 113 y = 78 }	
 			size = { width = 632 height = 50 }
-			clipping = yes
+			verticalScrollbar = "right_vertical_slider"			
 			
 			gridBoxType = {
 				name = "resources_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 632 height = 100%% }
 				slotsize = { width = 79 height = 46 }
-				max_slots_horizontal = 8
+				max_slots_vertical = 1
 				format = "UPPER_LEFT"
 			}
 		}	
 		
 		containerWindowType = {
 			name = "country_filters"
-			position = { x = 75 y = 325 }	
+			position = { x = 75 y = 322 }	
 			size = { width = 655 height = 50 }
 			verticalScrollbar = "right_vertical_slider"
 				
@@ -307,7 +307,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -37 y = 9 }
+			position = { x = -42 y = 9 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -335,16 +335,23 @@ guiTypes = {
 		iconType = {
 			name = "player_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = -98 y = 13 }
+			position = { x = -114 y = 13 }
 			Orientation = upper_right
+		}
+		iconType = {
+			name = "diplo_country_flag_overlay"
+			spriteType = "GFX_shield_flag_animated"
+			position = { x = -114 y = 13 }
+			Orientation = upper_right
+			alwaystransparent = yes
 		}
 			
 		iconType = {
 			name = "large_flag_frame"
-			position = { x = -102 y = 11 }
+			position = { x = -140 y = 2 }
 			spriteType = "GFX_large_flag_frame"
 			orientation = upper_right
-		}	
+		}
 			
 		instantTextboxType = {
 			name = "country"
@@ -665,8 +672,10 @@ guiTypes = {
 		
 		buttonType = {
 			name = "background"
+			position = {x=0 y=0}
 			quadTextureSprite ="GFX_TRADE_resource_btn"
 			clicksound = click_checkbox
+			scale = 1
 		}
 
 		iconType = {
@@ -717,8 +726,15 @@ guiTypes = {
 		buttonType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_flag_small2"
-			position = { x= 6 y = 8 }
+			position = { x= 7 y = 8 }
 			#alwaystransparent = yes
+		}
+		iconType = {
+			name = "diplo_country_flag_overlay"
+			spriteType = "GFX_shield_medium_animated"
+			position = { x = 6 y = 9 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
 		}
 		
 		iconType ={

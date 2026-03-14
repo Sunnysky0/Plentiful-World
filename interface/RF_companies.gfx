@@ -1,0 +1,77 @@
+spriteTypes = {
+
+	# THIS IS ALL TO CONFUSING FOR ME, FIND A GIANT LINE BELOW AND ADD YOUR IDEA GFX THERE FOLLOWING THE PATTERN + ALPHABETICAL ORDER ON THE COUNTRIES PLEASE
+
+	### JAP Japan
+		### JAPANESE IDEAS
+
+	spriteType = {
+		name = "GFX_idea_sasebo_naval_arsenal"
+		texturefile = "gfx/interface/companies/JAP/JAP_sasebo_naval_arsenal.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_maizuru_naval_arsenal"
+		texturefile = "gfx/interface/companies/JAP/JAP_maizuru_naval_arsenal.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_ishikawajima_heavy_industries"
+		texturefile = "gfx/interface/companies/JAP/JAP_Ishikawajima_Heavy_Industries.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_yokosuka_naval_arsenal"
+		texturefile = "gfx/interface/companies/JAP/JAP_yokosuka_naval_arsenal.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_kure_naval_arsenal"
+		texturefile = "gfx/interface/companies/JAP/JAP_kure_naval_arsenal.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_osaka_army_arsenal"
+		texturefile = "gfx/interface/companies/JAP/JAP_osaka_army_arsenal.png"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_nissan"
+		texturefile = "gfx/interface/companies/JAP/JAP_nissan.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_tokyo_arsenal"
+		texturefile = "gfx/interface/companies/JAP/JAP_tokyo_arsenal.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_sumitomo"
+		texturefile = "gfx/interface/companies/JAP/JAP_sumitomo.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_kawasaki"
+		texturefile = "gfx/interface/companies/JAP/JAP_kawasaki.png"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_yokosuka"
+		texturefile = "gfx/interface/companies/JAP/JAP_yokosuka.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_nakajima"
+		texturefile = "gfx/interface/companies/JAP/JAP_nakajima.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_aichi"
+		texturefile = "gfx/interface/companies/JAP/JAP_aichi.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_mitsubishi"
+		texturefile = "gfx/interface/companies/JAP/JAP_mitsubishi.png"
+	}	
+}

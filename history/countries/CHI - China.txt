@@ -288,6 +288,41 @@ set_politics = {
 	elections_allowed = no
 }
 
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = VIN
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.3
+	}
+	set_autonomy = {
+		target = KOR
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = PHI
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.3
+	}
+	else = {
+		puppet = VIN
+		puppet = KOR
+		puppet = PHI
+	}
+}
+
+create_faction = "TIANCHAO_ALLIANCE"
+add_to_faction = KOR
+add_to_faction = VIN
+add_to_faction = PHI
+add_to_faction = JAP
+
 add_ideas = {
 	CHI_Li_Linfu
 	CHI_corrupt_military

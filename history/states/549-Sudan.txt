@@ -9,7 +9,8 @@ state={
 		victory_points = {
 			2096 1 
 		}
-		owner = ENG
+		owner = BAF
+		add_core_of = BAF
 		add_core_of = SUD
 		buildings = {
 			infrastructure = 2
