@@ -363,28 +363,38 @@ function App() {
       setMessage('请先输入特质ID')
       return
     }
+    const originalTraitId = selectedTraitDetail?.id || selectedTraitId || ''
     const modifiers = traitDraftModifiers
       .map((item) => ({ key: item.key.trim(), value: Number(item.value) }))
       .filter((item) => item.key && Number.isFinite(item.value))
     setTraitSaving(true)
     setMessage('')
     try {
+      let activeTraitId = id
+      if (originalTraitId && originalTraitId !== id) {
+        await fetchJson(`/api/traits/${originalTraitId}/keys`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ nextTraitId: id }),
+        })
+        activeTraitId = id
+      }
       await fetchJson('/api/traits/upsert', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id, modifiers }),
+        body: JSON.stringify({ id: activeTraitId, modifiers }),
       })
-      await fetchJson(`/api/traits/${id}/localization`, {
+      await fetchJson(`/api/traits/${activeTraitId}/localization`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          localizedName: traitLocalizedNameDraft.trim() || id,
+          localizedName: traitLocalizedNameDraft.trim() || activeTraitId,
           localizedDescription: traitLocalizedDescriptionDraft.trim(),
         }),
       })
       await loadTraitDetails()
-      setSelectedTraitId(id)
-      setMessage(`已保存特质 ${id} 及其本地化`)
+      setSelectedTraitId(activeTraitId)
+      setMessage(`已保存特质 ${activeTraitId} 及其本地化`)
     } catch (error) {
       setMessage(error.message)
     } finally {

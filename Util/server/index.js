@@ -1666,6 +1666,17 @@ app.post('/api/traits/:id/localization', async (req, res) => {
   res.json({ success: true })
 })
 
+app.post('/api/traits/:id/keys', async (req, res) => {
+  const traitId = String(req.params.id ?? '').trim()
+  const nextTraitId = String(req.body?.nextTraitId ?? '').trim()
+  const result = await updateTraitKey({ traitId, nextTraitId })
+  if (!result.ok) {
+    res.status(result.status ?? 400).json({ error: result.error ?? 'failed to update trait key' })
+    return
+  }
+  res.json(result)
+})
+
 app.get('/api/characters', async (req, res) => {
   const tag = String(req.query.tag ?? '').toUpperCase()
   if (!tag) {
