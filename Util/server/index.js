@@ -1150,8 +1150,8 @@ const replaceIdentifierToken = (text, from, to) => {
     return text
   }
   const escaped = from.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  const tokenRe = new RegExp(`(^|[^A-Za-z0-9_])(${escaped})(?=[^A-Za-z0-9_]|$)`, 'gm')
-  return text.replace(tokenRe, (_, prefix) => `${prefix}${to}`)
+  const tokenRe = new RegExp(`(?<![A-Za-z0-9_])${escaped}(?![A-Za-z0-9_])`, 'g')
+  return text.replace(tokenRe, to)
 }
 
 const replaceTokenInAllModTextFiles = async ({ from, to }) => {
@@ -1233,33 +1233,6 @@ const updateCharacterKeys = async ({ characterId, nextCharacterId, nextNameToken
       idChangedFiles: idReplace.changedFiles,
       nameTokenChangedFiles: nameTokenReplace.changedFiles,
     },
-  }
-}
-
-const updateTraitKey = async ({ traitId, nextTraitId }) => {
-  const trimmedCurrentId = String(traitId ?? '').trim()
-  const trimmedNextId = String(nextTraitId ?? '').trim()
-  if (!trimmedCurrentId || !trimmedNextId) {
-    return { ok: false, error: 'traitId and nextTraitId are required', status: 400 }
-  }
-  if (trimmedCurrentId === trimmedNextId) {
-    return { ok: true, previous: { traitId: trimmedCurrentId }, current: { traitId: trimmedNextId }, stats: { changedFiles: 0 } }
-  }
-  const details = await collectTraitDetails()
-  if (!details.some((item) => item.id === trimmedCurrentId)) {
-    return { ok: false, error: 'trait not found', status: 404 }
-  }
-  if (details.some((item) => item.id === trimmedNextId)) {
-    return { ok: false, error: 'nextTraitId already exists', status: 409 }
-  }
-  const replace = await replaceTokenInAllModTextFiles({ from: trimmedCurrentId, to: trimmedNextId })
-  localizationMapCache = null
-  localizationFilesCache = null
-  return {
-    ok: true,
-    previous: { traitId: trimmedCurrentId },
-    current: { traitId: trimmedNextId },
-    stats: { changedFiles: replace.changedFiles },
   }
 }
 
