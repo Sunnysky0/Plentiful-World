@@ -1145,6 +1145,124 @@ const buildCharacterFileIndex = async () => {
   return characterFileIndexCache
 }
 
+const replaceIdentifierToken = (text, from, to) => {
+  if (!from || from === to) {
+    return text
+  }
+  const escaped = from.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const tokenRe = new RegExp(`(^|[^A-Za-z0-9_])(${escaped})(?=[^A-Za-z0-9_]|$)`, 'gm')
+  return text.replace(tokenRe, (_, prefix) => `${prefix}${to}`)
+}
+
+const replaceTokenInAllModTextFiles = async ({ from, to }) => {
+  if (!from || from === to) {
+    return { changedFiles: 0 }
+  }
+  const targets = [
+    path.join(modRoot, 'common'),
+    path.join(modRoot, 'events'),
+    path.join(modRoot, 'history'),
+    path.join(modRoot, 'interface'),
+    path.join(modRoot, 'localisation'),
+    path.join(modRoot, 'map'),
+    path.join(modRoot, 'stories'),
+  ]
+  const extWhitelist = ['.txt', '.yml', '.yaml', '.gfx', '.gui', '.asset']
+  const files = []
+  for (const target of targets) {
+    files.push(...(await readAllFiles(target, extWhitelist)))
+  }
+  const uniqueFiles = [...new Set(files)]
+  let changedFiles = 0
+  for (const filePath of uniqueFiles) {
+    const text = await fs.readFile(filePath, 'utf8')
+    const updated = replaceIdentifierToken(text, from, to)
+    if (updated === text) {
+      continue
+    }
+    await fs.writeFile(filePath, updated, 'utf8')
+    changedFiles += 1
+  }
+  return { changedFiles }
+}
+
+const updateCharacterKeys = async ({ characterId, nextCharacterId, nextNameToken }) => {
+  const trimmedCurrentId = String(characterId ?? '').trim()
+  const trimmedNextId = String(nextCharacterId ?? '').trim()
+  const trimmedNextNameToken = String(nextNameToken ?? '').trim()
+  if (!trimmedCurrentId || !trimmedNextId || !trimmedNextNameToken) {
+    return { ok: false, error: 'characterId, nextCharacterId and nextNameToken are required', status: 400 }
+  }
+  const definitions = await loadCharacterDefinitions(false)
+  const current = definitions.get(trimmedCurrentId)
+  if (!current) {
+    return { ok: false, error: 'character not found', status: 404 }
+  }
+  if (trimmedCurrentId !== trimmedNextId && definitions.has(trimmedNextId)) {
+    return { ok: false, error: 'nextCharacterId already exists', status: 409 }
+  }
+  const currentNameToken = current.nameToken || `${trimmedCurrentId}_name`
+  const idReplace = await replaceTokenInAllModTextFiles({
+    from: trimmedCurrentId,
+    to: trimmedNextId,
+  })
+  const nameTokenReplace = await replaceTokenInAllModTextFiles({
+    from: currentNameToken,
+    to: trimmedNextNameToken,
+  })
+  characterDefinitionsCache = null
+  characterFileIndexCache = null
+  spriteMapCache = null
+  spriteFilesCache = null
+  spriteIndexCache = null
+  localizationMapCache = null
+  localizationFilesCache = null
+  portraitLookupCache = null
+  recruitIdsByTagCache = null
+  return {
+    ok: true,
+    previous: {
+      characterId: trimmedCurrentId,
+      nameToken: currentNameToken,
+    },
+    current: {
+      characterId: trimmedNextId,
+      nameToken: trimmedNextNameToken,
+    },
+    stats: {
+      idChangedFiles: idReplace.changedFiles,
+      nameTokenChangedFiles: nameTokenReplace.changedFiles,
+    },
+  }
+}
+
+const updateTraitKey = async ({ traitId, nextTraitId }) => {
+  const trimmedCurrentId = String(traitId ?? '').trim()
+  const trimmedNextId = String(nextTraitId ?? '').trim()
+  if (!trimmedCurrentId || !trimmedNextId) {
+    return { ok: false, error: 'traitId and nextTraitId are required', status: 400 }
+  }
+  if (trimmedCurrentId === trimmedNextId) {
+    return { ok: true, previous: { traitId: trimmedCurrentId }, current: { traitId: trimmedNextId }, stats: { changedFiles: 0 } }
+  }
+  const details = await collectTraitDetails()
+  if (!details.some((item) => item.id === trimmedCurrentId)) {
+    return { ok: false, error: 'trait not found', status: 404 }
+  }
+  if (details.some((item) => item.id === trimmedNextId)) {
+    return { ok: false, error: 'nextTraitId already exists', status: 409 }
+  }
+  const replace = await replaceTokenInAllModTextFiles({ from: trimmedCurrentId, to: trimmedNextId })
+  localizationMapCache = null
+  localizationFilesCache = null
+  return {
+    ok: true,
+    previous: { traitId: trimmedCurrentId },
+    current: { traitId: trimmedNextId },
+    stats: { changedFiles: replace.changedFiles },
+  }
+}
+
 const purgeLegacyEditorOverrides = async (characterId) => {
   const escaped = characterId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
   const characterRe = new RegExp(`\\n\\t${escaped}\\s*=\\s*\\{[\\s\\S]*?\\n\\t\\}`, 'm')
@@ -1575,6 +1693,17 @@ app.post('/api/traits/:id/localization', async (req, res) => {
   res.json({ success: true })
 })
 
+app.post('/api/traits/:id/keys', async (req, res) => {
+  const traitId = String(req.params.id ?? '').trim()
+  const nextTraitId = String(req.body?.nextTraitId ?? '').trim()
+  const result = await updateTraitKey({ traitId, nextTraitId })
+  if (!result.ok) {
+    res.status(result.status ?? 400).json({ error: result.error ?? 'failed to update trait key' })
+    return
+  }
+  res.json(result)
+})
+
 app.get('/api/characters', async (req, res) => {
   const tag = String(req.query.tag ?? '').toUpperCase()
   if (!tag) {
@@ -1646,6 +1775,18 @@ app.post('/api/characters/:id/description-localization', async (req, res) => {
   await ensureLocalizationEntry(descToken, localizedDescription)
   localizationMapCache = null
   res.json({ success: true })
+})
+
+app.post('/api/characters/:id/keys', async (req, res) => {
+  const characterId = String(req.params.id ?? '').trim()
+  const nextCharacterId = String(req.body?.nextCharacterId ?? '').trim()
+  const nextNameToken = String(req.body?.nextNameToken ?? '').trim()
+  const result = await updateCharacterKeys({ characterId, nextCharacterId, nextNameToken })
+  if (!result.ok) {
+    res.status(result.status ?? 400).json({ error: result.error ?? 'failed to update character keys' })
+    return
+  }
+  res.json(result)
 })
 
 app.post('/api/characters', async (req, res) => {

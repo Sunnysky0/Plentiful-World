@@ -23,6 +23,8 @@ function App() {
   const [editorMode, setEditorMode] = useState('edit')
   const [localizedNameEditorText, setLocalizedNameEditorText] = useState('')
   const [localizedDescriptionEditorText, setLocalizedDescriptionEditorText] = useState('')
+  const [characterIdEditorText, setCharacterIdEditorText] = useState('')
+  const [nameTokenEditorText, setNameTokenEditorText] = useState('')
   const [traitKeyword, setTraitKeyword] = useState('')
   const [selectedTraitId, setSelectedTraitId] = useState('')
   const [traitDraftId, setTraitDraftId] = useState('')
@@ -177,6 +179,8 @@ function App() {
       setTraitEditorText(firstTraits)
       setLocalizedNameEditorText(detail.localizedName || '')
       setLocalizedDescriptionEditorText(detail.localizedDescription || '')
+      setCharacterIdEditorText(detail.id || '')
+      setNameTokenEditorText(detail.nameToken || '')
       setSelectedTraitId(firstTraitId)
       loadCharacterDetail(tag, current.id, reload, true).catch(() => {})
     } else {
@@ -184,6 +188,8 @@ function App() {
       setTraitEditorText('')
       setLocalizedNameEditorText('')
       setLocalizedDescriptionEditorText('')
+      setCharacterIdEditorText('')
+      setNameTokenEditorText('')
       setSelectedTraitId('')
     }
   }, [fetchJson, loadCharacterDetail])
@@ -251,6 +257,8 @@ function App() {
       setTraitEditorText('')
       setLocalizedNameEditorText('')
       setLocalizedDescriptionEditorText('')
+      setCharacterIdEditorText('')
+      setNameTokenEditorText('')
       setSelectedTraitId('')
       return
     }
@@ -262,6 +270,8 @@ function App() {
     setTraitEditorText(text)
     setLocalizedNameEditorText(selectedCharacter.localizedName || '')
     setLocalizedDescriptionEditorText(selectedCharacter.localizedDescription || '')
+    setCharacterIdEditorText(selectedCharacter.id || '')
+    setNameTokenEditorText(selectedCharacter.nameToken || '')
     setSelectedTraitId(firstTrait)
   }, [selectedCharacter])
 
@@ -298,29 +308,48 @@ function App() {
     if (!selectedCharacter) {
       return
     }
+    const nextCharacterId = characterIdEditorText.trim()
+    const nextNameToken = nameTokenEditorText.trim()
+    if (!nextCharacterId) {
+      setMessage('角色ID不能为空')
+      return
+    }
+    if (!nextNameToken) {
+      setMessage('名称键值不能为空')
+      return
+    }
     setSaving(true)
     setMessage('')
     try {
+      let activeCharacterId = selectedCharacter.id
+      if (nextCharacterId !== selectedCharacter.id || nextNameToken !== (selectedCharacter.nameToken || '')) {
+        await fetchJson(`/api/characters/${selectedCharacter.id}/keys`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ nextCharacterId, nextNameToken }),
+        })
+        activeCharacterId = nextCharacterId
+      }
       const localizedDescription = localizedDescriptionEditorText.trim()
-      await fetchJson(`/api/characters/${selectedCharacter.id}/localization`, {
+      await fetchJson(`/api/characters/${activeCharacterId}/localization`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ localizedName: localizedNameEditorText.trim() }),
       })
       if (localizedDescription) {
-        await fetchJson(`/api/characters/${selectedCharacter.id}/description-localization`, {
+        await fetchJson(`/api/characters/${activeCharacterId}/description-localization`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ localizedDescription }),
         })
       }
-      await fetchJson(`/api/characters/${selectedCharacter.id}/traits`, {
+      await fetchJson(`/api/characters/${activeCharacterId}/traits`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ traits: characterTraits }),
       })
-      setMessage(`已保存 ${selectedCharacter.id} 的名称/介绍本地化与主特质块`)
-      await triggerLoadCharacters(selectedTag, selectedCharacter.id)
+      setMessage(`已保存 ${activeCharacterId} 的键值、名称/介绍本地化与主特质块`)
+      await triggerLoadCharacters(selectedTag, activeCharacterId)
     } catch (error) {
       setMessage(error.message)
     } finally {
@@ -334,28 +363,38 @@ function App() {
       setMessage('请先输入特质ID')
       return
     }
+    const originalTraitId = selectedTraitDetail?.id || selectedTraitId || ''
     const modifiers = traitDraftModifiers
       .map((item) => ({ key: item.key.trim(), value: Number(item.value) }))
       .filter((item) => item.key && Number.isFinite(item.value))
     setTraitSaving(true)
     setMessage('')
     try {
+      let activeTraitId = id
+      if (originalTraitId && originalTraitId !== id) {
+        await fetchJson(`/api/traits/${originalTraitId}/keys`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ nextTraitId: id }),
+        })
+        activeTraitId = id
+      }
       await fetchJson('/api/traits/upsert', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id, modifiers }),
+        body: JSON.stringify({ id: activeTraitId, modifiers }),
       })
-      await fetchJson(`/api/traits/${id}/localization`, {
+      await fetchJson(`/api/traits/${activeTraitId}/localization`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          localizedName: traitLocalizedNameDraft.trim() || id,
+          localizedName: traitLocalizedNameDraft.trim() || activeTraitId,
           localizedDescription: traitLocalizedDescriptionDraft.trim(),
         }),
       })
       await loadTraitDetails()
-      setSelectedTraitId(id)
-      setMessage(`已保存特质 ${id} 及其本地化`)
+      setSelectedTraitId(activeTraitId)
+      setMessage(`已保存特质 ${activeTraitId} 及其本地化`)
     } catch (error) {
       setMessage(error.message)
     } finally {
@@ -449,6 +488,8 @@ function App() {
     setTraitEditorText('')
     setLocalizedNameEditorText('')
     setLocalizedDescriptionEditorText('')
+    setCharacterIdEditorText('')
+    setNameTokenEditorText('')
     setSelectedTraitId('')
     setMessage('')
   }
@@ -857,6 +898,27 @@ function App() {
                         无头像
                       </div>
                     )}
+                  </div>
+                </div>
+
+                <div className="mt-4 grid gap-4 md:grid-cols-2">
+                  <div>
+                    <label className="mb-2 block text-sm font-medium text-slate-300">角色键值（ID）</label>
+                    <input
+                      value={characterIdEditorText}
+                      onChange={(event) => setCharacterIdEditorText(event.target.value)}
+                      className="w-full rounded-md border border-slate-600 bg-slate-800 px-3 py-2 text-sm outline-none ring-cyan-400 focus:ring"
+                      placeholder="输入角色ID键值"
+                    />
+                  </div>
+                  <div>
+                    <label className="mb-2 block text-sm font-medium text-slate-300">名称键值（name token）</label>
+                    <input
+                      value={nameTokenEditorText}
+                      onChange={(event) => setNameTokenEditorText(event.target.value)}
+                      className="w-full rounded-md border border-slate-600 bg-slate-800 px-3 py-2 text-sm outline-none ring-cyan-400 focus:ring"
+                      placeholder="输入名称键值"
+                    />
                   </div>
                 </div>
 
