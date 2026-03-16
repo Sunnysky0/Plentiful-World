@@ -33,6 +33,8 @@ let characterFileIndexCache = null
 const spriteIndexPath = path.join(utilRoot, '.cache', 'sprite_index.json')
 const defaultPortraitWidth = 156
 const defaultPortraitHeight = 210
+const ideaPortraitWidth = 48
+const ideaPortraitHeight = 64
 
 const stripComments = (text) => text.replace(/#.*$/gm, '')
 const browserImageExt = new Set(['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg'])
@@ -959,12 +961,8 @@ const writePortraitDataToTarget = async ({ targetPath, imageDataUrl, ddsBase64 }
     return out
   }
   const writeScaledIdea = async (sourceImage) => {
-    let targetImage = null
-    if (await exists(targetPath)) {
-      targetImage = await readImageByPath(targetPath)
-    }
-    const targetWidth = targetImage?.width ?? 64
-    const targetHeight = targetImage?.height ?? 64
+    const targetWidth = ideaPortraitWidth
+    const targetHeight = ideaPortraitHeight
     const scaled = fitContainRgba({
       srcWidth: sourceImage.width,
       srcHeight: sourceImage.height,

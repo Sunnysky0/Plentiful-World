@@ -1104,7 +1104,9 @@ function App() {
         ) : null}
 
         {message ? (
-          <div className="mt-4 rounded-md border border-cyan-700 bg-cyan-950/40 p-3 text-sm text-cyan-200">{message}</div>
+          <div className="fixed left-1/2 top-4 z-50 w-[min(640px,90vw)] -translate-x-1/2 rounded-md border border-cyan-700 bg-cyan-950/90 p-3 text-sm text-cyan-200 shadow-lg">
+            {message}
+          </div>
         ) : null}
       </div>
     </main>
