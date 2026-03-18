@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import modifierList from './data/modifiers.json'
 
 function App() {
   const defaultPortraitWidth = 156
@@ -26,6 +27,7 @@ function App() {
   const [characterIdEditorText, setCharacterIdEditorText] = useState('')
   const [nameTokenEditorText, setNameTokenEditorText] = useState('')
   const [traitKeyword, setTraitKeyword] = useState('')
+  const [modifierKeyword, setModifierKeyword] = useState('')
   const [selectedTraitId, setSelectedTraitId] = useState('')
   const [traitDraftId, setTraitDraftId] = useState('')
   const [traitDraftModifiers, setTraitDraftModifiers] = useState([])
@@ -72,6 +74,14 @@ function App() {
       .filter((item) => item.id.toLowerCase().includes(keyword) || item.text.toLowerCase().includes(keyword))
       .slice(0, 200)
   }, [traitKeyword, traitsRef])
+
+  const filteredModifierHints = useMemo(() => {
+    const keyword = modifierKeyword.trim().toLowerCase()
+    if (!keyword) {
+      return modifierList.slice(0, 200)
+    }
+    return modifierList.filter((item) => item.toLowerCase().includes(keyword)).slice(0, 200)
+  }, [modifierKeyword])
 
   const filteredTags = useMemo(() => {
     const keyword = tagKeyword.trim().toLowerCase()
@@ -480,6 +490,20 @@ function App() {
       const next = characterTraits.filter((item) => item !== traitId)[0] ?? ''
       setSelectedTraitId(next)
     }
+  }
+
+  const appendModifierToDraft = (modifierKey) => {
+    const key = modifierKey.trim()
+    if (!key) {
+      return
+    }
+    setTraitDraftModifiers((prev) => {
+      const emptyIndex = prev.findIndex((row) => !row.key.trim())
+      if (emptyIndex >= 0) {
+        return prev.map((row, index) => (index === emptyIndex ? { ...row, key } : row))
+      }
+      return [...prev, { key, value: '0' }]
+    })
   }
 
   const openCreateEditor = () => {
@@ -1011,6 +1035,7 @@ function App() {
                           }
                           className="rounded-md border border-slate-600 bg-slate-900 px-3 py-2 text-xs outline-none ring-cyan-400 focus:ring"
                           placeholder="modifier key"
+                          list="modifier-hints"
                         />
                         <input
                           value={item.value}
@@ -1032,6 +1057,32 @@ function App() {
                       </div>
                     ))}
                   </div>
+                  <div className="mt-3">
+                    <div className="mb-2 text-xs font-semibold text-amber-300">modifier提词器（可搜索）</div>
+                    <input
+                      value={modifierKeyword}
+                      onChange={(event) => setModifierKeyword(event.target.value)}
+                      className="mb-2 w-full rounded-md border border-slate-600 bg-slate-900 px-3 py-2 text-xs outline-none ring-cyan-400 focus:ring"
+                      placeholder="搜索 modifier key"
+                    />
+                    <div className="max-h-48 space-y-1 overflow-auto rounded border border-slate-700 bg-slate-900 p-2 text-xs">
+                      {filteredModifierHints.map((item) => (
+                        <button
+                          key={item}
+                          type="button"
+                          onClick={() => appendModifierToDraft(item)}
+                          className="block w-full rounded px-2 py-1 text-left hover:bg-slate-800"
+                        >
+                          <span className="text-cyan-300">{item}</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                  <datalist id="modifier-hints">
+                    {modifierList.map((item) => (
+                      <option key={item} value={item} />
+                    ))}
+                  </datalist>
                   <div className="mt-2 flex gap-2">
                     <button
                       type="button"

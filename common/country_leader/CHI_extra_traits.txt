@@ -16,12 +16,7 @@ leader_traits = {
 		party_popularity_stability_factor = 0.6
 	}
 
-	trait_CHI_Shangguan_Wan_er = {
-		random = no
-		political_power_gain = 0.8
-		stability_weekly = 0.03
-		compliance_gain = 0.3
-	}
+	
 
 	trait_CHI_Shen_Wan_san = {
 		random = no

@@ -1,4 +1,10 @@
-l_english:
- CHI_yuan_shikai:0 "袁世凯"
- CHI_Lu_Ban:0 "鲁班"
- CHI_Lu_Ban_desc:0 "工艺大师"
+﻿l_english:
+ CHI_yuan_shikai:0 "Yuan Shikai"
+ CHI_Lu_Ban:0 "Lu Ban"
+ CHI_Lu_Ban_desc:0 "Master Craftsman"
+ trait_CHI_Xi_Lian:0 "黄金裔"
+ CHI_Xi_Lian:0 "昔涟"
+ trait_CHI_Ren_Hazuki:0 "学生会会长"
+ CHI_Ren_Hazuki:0 "叶月恋"
+ trait_CHI_Herta:0 "Genius Society No.83"
+ trait_CHI_Kafka:0 "星核猎手"

@@ -1,4 +1,11 @@
-l_simp_chinese:
+﻿l_simp_chinese:
  CHI_yuan_shikai:0 "袁世凯"
  CHI_Lu_Ban:0 "鲁班"
  CHI_Lu_Ban_desc:0 "工艺大师"
+ trait_CHI_Xi_Lian:0 "黄金裔"
+ CHI_Xi_Lian:0 "昔涟"
+ trait_CHI_Ren_Hazuki:0 "学生会会长"
+ CHI_Ren_Hazuki:0 "叶月恋"
+ trait_CHI_Herta:0 "天才俱乐部第83席"
+ CHI_Herta:0 "黑塔"
+ trait_CHI_Kafka:0 "星核猎手"

@@ -339,10 +339,10 @@ promote_character = CHI_yuan_shikai
 # New Characters Recruitment
 # Generated Characters Recruitment
 	recruit_character = CHI_Ziye_Li
-	recruit_character = CHI_Shangguan_Wan_er
-	recruit_character = CHI_Shen_Wan_san
-	recruit_character = CHI_Di_Ren_jie
-	recruit_character = CHI_Mo_Zi
+	recruit_character = CHI_Xi_Lian
+	recruit_character = CHI_Ren_Hazuki
+	recruit_character = CHI_Herta
+	recruit_character = CHI_Kafka
 	recruit_character = CHI_Su_Qin
 	recruit_character = CHI_Shang_Yang
 	recruit_character = CHI_Li_Shi_zhen
